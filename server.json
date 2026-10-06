@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.qso-graph/cq-zones-mcp",
+  "description": "CQ zones as CQ publishes them (WAZ Zone Definitions), in ADIF's DXCC and subdivision codes",
+  "repository": {
+    "url": "https://github.com/qso-graph/cq-zones-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "cq-zones-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tool": "mcp-publisher",
+      "version": "2.0.0"
+    }
+  }
+}
