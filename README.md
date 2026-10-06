@@ -5,6 +5,8 @@
 [![MCP Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dio.github.qso-graph%2Fcq-zones-mcp%26version%3Dlatest&query=%24.servers%5B0%5D.server.version&label=MCP%20Registry&color=blue)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.qso-graph/cq-zones-mcp&version=latest)
 
 > **Source: CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm)** ("Updated and correct as of April 1, 2018"), © CQ Communications, Inc. and the World Wide Radio Operators Foundation (WWROF). The 40 CQ zones are CQ's: this package serves facts from CQ's list, each citing the zone it comes from, and links to CQ's page rather than copying it. Our GPL-3.0 licence covers our code, not CQ's data.
+>
+> **Checked against:** [AD1C's country files](https://www.country-files.com/) (Jim Reisert, AD1C; MIT licence, notice in `tests/crosscheck/`), ADIF 3.1.7's subdivision zones, and ARRL's DXCC list. These validate the facts in the tests; where they differ, the owner's list wins (see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md)).
 
 MCP server for **CQ zones** as CQ publishes them: the 40 zones of CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm) (2018-04-01), the zones used by CQ's Worked All Zones award and the CQ World Wide DX Contest. Each zone's entities and subdivisions are given in ADIF's own DXCC and subdivision codes, with CQ's own wording where it splits an area.
 
