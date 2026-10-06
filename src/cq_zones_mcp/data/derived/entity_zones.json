@@ -1,0 +1,5475 @@
+{
+  "_about": "Derived by this package, not published by the owner: each ADIF DXCC entity and the CQ zones the owner's list assigns to it, built from facts/cq_zones.json. Where an entity is split, parts gives the owner's own boundary wording.",
+  "derived_from": "facts/cq_zones.json",
+  "owner_document": "cq_waz_list.htm",
+  "edition": "2018-04-01",
+  "entities": {
+    "1": {
+      "zones": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "1",
+          "pas": "YT",
+          "prefix": "VY1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 1"
+        },
+        {
+          "zone": "1",
+          "pas": "NT",
+          "prefix": "VE8",
+          "boundary": "west of 102 degrees (Includes the islands of Victoria, Banks, Melville, and Prince Patrick)",
+          "source": "cq_waz_list.htm, Zone 1"
+        },
+        {
+          "zone": "1",
+          "pas": "NU",
+          "prefix": "VY0",
+          "boundary": "west of 102 degrees (Includes the islands of Victoria, Banks, Melville, and Prince Patrick)",
+          "source": "cq_waz_list.htm, Zone 1"
+        },
+        {
+          "zone": "2",
+          "pas": "NL",
+          "prefix": "VO2",
+          "boundary": "Labrador",
+          "source": "cq_waz_list.htm, Zone 2"
+        },
+        {
+          "zone": "2",
+          "pas": "QC",
+          "prefix": "VE2",
+          "boundary": "north of the 50th parallel",
+          "source": "cq_waz_list.htm, Zone 2"
+        },
+        {
+          "zone": "2",
+          "pas": "NU",
+          "prefix": null,
+          "boundary": "east of 102 degrees (Includes the islands of King Christian, King William. Prince of Wales, Somerset, Bathurst, Devon, Ellesmere, Baffin and the Melville and Boothia Peninsulas, excluding Akimiski Island, Bear Islands and East Pen Island in Hudson Bay)",
+          "source": "cq_waz_list.htm, Zone 2"
+        },
+        {
+          "zone": "3",
+          "pas": "BC",
+          "prefix": "VE7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "4",
+          "pas": "ON",
+          "prefix": "VE3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "MB",
+          "prefix": "VE4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "SK",
+          "prefix": "VE5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "AB",
+          "prefix": "VE6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "NU",
+          "prefix": "VY0",
+          "boundary": "Akimiski Island, and Bear Islands, and Fox Island and East Pen Island in Hudson Bay",
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "5",
+          "pas": "NS",
+          "prefix": "VE1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "NB",
+          "prefix": "VE9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "PE",
+          "prefix": "VY2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "NL",
+          "prefix": "VO1",
+          "boundary": "Newfoundland",
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "QC",
+          "prefix": "VE2",
+          "boundary": "south of the 50th parallel",
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "3": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "YA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "4": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "3B6/7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "5": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "OH0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "6": {
+      "zones": [
+        "1"
+      ],
+      "parts": [
+        {
+          "zone": "1",
+          "pas": null,
+          "prefix": "KL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 1"
+        }
+      ]
+    },
+    "7": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "ZA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "9": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "KH8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "10": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FT‑Z",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "11": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "12": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "VP2E",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "13": {
+      "zones": [
+        "12",
+        "13",
+        "29",
+        "30",
+        "32",
+        "38",
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        },
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        },
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        },
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        },
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        },
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations :(See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        },
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        },
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        },
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        },
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        },
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        },
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)",
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        },
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        },
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones.",
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "14": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "EK",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "15": {
+      "zones": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "23"
+      ],
+      "parts": [
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA9 (S,T,W)",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "UA8,9 (A, B,C,D, F, G, J. K, L, M, N, Q,R, X)",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 17"
+        },
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "UA8,9 (H,I,O,P,U, V,Y,Z)",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 18"
+        },
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "UAO (A, B, H, O,R, S,T, U,V, W",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 18"
+        },
+        {
+          "zone": "19",
+          "pas": null,
+          "prefix": "UA0 (C, D, F, I, J, K, L, Q, X, Z)",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 19"
+        },
+        {
+          "zone": "23",
+          "pas": null,
+          "prefix": "UA0Y",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        }
+      ]
+    },
+    "16": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "ZL9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "17": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "YV0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "18": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "4J",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "20": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "21": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "EA6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "22": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "T8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "24": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "27": {
+      "zones": [
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "EW",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        }
+      ]
+    },
+    "29": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "EA8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "31": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "T31",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "32": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "EA9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "33": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "VQ9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "34": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "ZL7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "35": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "VK9X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        }
+      ]
+    },
+    "36": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "37": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "TI9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "38": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "VK9C",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        }
+      ]
+    },
+    "40": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "SV9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "41": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FT‑W",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "43": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "KP5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "45": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "SV5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "46": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "9M",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "47": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        }
+      ]
+    },
+    "48": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "T32",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "49": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "3C",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "50": {
+      "zones": [
+        "6"
+      ],
+      "parts": [
+        {
+          "zone": "6",
+          "pas": null,
+          "prefix": "XE",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 6"
+        }
+      ]
+    },
+    "51": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "E3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "52": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "ES",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "53": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "ET",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "54": {
+      "zones": [
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        }
+      ]
+    },
+    "56": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 11"
+        }
+      ]
+    },
+    "60": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "C6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "61": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "RI1FJ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 40"
+        }
+      ]
+    },
+    "62": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "8P",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "63": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "FY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "64": {
+      "zones": [
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "VP9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "65": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "VP2V",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "66": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "V3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "69": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "ZF",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "70": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "CO",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "71": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "HC8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 10"
+        }
+      ]
+    },
+    "72": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "HI",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "74": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "YS",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "75": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "4L",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "76": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "TG",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "77": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "J3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "78": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "HH",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "79": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "FG",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "80": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "HR",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "82": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "6Y",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "84": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "FM",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "86": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "YN",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "88": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "HP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "89": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "VP5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "90": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "9Y",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "91": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "P4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "94": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "V2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "95": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "J7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "96": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "VP2M",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "97": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "J6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "98": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "J8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "99": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FT-G",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "100": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "LU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "103": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "KH2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "104": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "CP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 10"
+        }
+      ]
+    },
+    "105": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "KG4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "106": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "GU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "107": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "3X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "108": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "PY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 11"
+        }
+      ]
+    },
+    "109": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "J5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "110": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "111": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "VK0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "112": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "CE",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        }
+      ]
+    },
+    "114": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "GD",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "116": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "HK",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "117": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "4U1ITU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "118": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "JX",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 40"
+        }
+      ]
+    },
+    "120": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "HC",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 10"
+        }
+      ]
+    },
+    "122": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "GJ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "123": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "124": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FT-J&E",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "125": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        }
+      ]
+    },
+    "126": {
+      "zones": [
+        "15",
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "UA2,F,K, RA2,UB2-UI2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UA2",
+          "boundary": "except for RA2 and UA2-UI2",
+          "source": "cq_waz_list.htm, Zone 16"
+        }
+      ]
+    },
+    "129": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "8R",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "130": {
+      "zones": [
+        "17"
+      ],
+      "parts": [
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "UN",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 17"
+        }
+      ]
+    },
+    "131": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FT-X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "132": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "ZP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 11"
+        }
+      ]
+    },
+    "133": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "ZL8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "134": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH5K",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "135": {
+      "zones": [
+        "17"
+      ],
+      "parts": [
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "EX",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 17"
+        }
+      ]
+    },
+    "136": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "OA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 10"
+        }
+      ]
+    },
+    "137": {
+      "zones": [
+        "25"
+      ],
+      "parts": [
+        {
+          "zone": "25",
+          "pas": null,
+          "prefix": "HL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 25"
+        }
+      ]
+    },
+    "138": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH7K",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "140": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "PZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "141": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "142": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "143": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "XW",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "144": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "CX",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "145": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "YL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "146": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "LY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "147": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "VK9L",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        }
+      ]
+    },
+    "148": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "YV",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "149": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "150": {
+      "zones": [
+        "29",
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": "WA",
+          "prefix": "VK6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        },
+        {
+          "zone": "29",
+          "pas": "NT",
+          "prefix": "VK8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 29; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": "ACT",
+          "prefix": "VK1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": "NSW",
+          "prefix": "VK2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": "VIC",
+          "prefix": "VK3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": "QLD",
+          "prefix": "VK4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": "SA",
+          "prefix": "VK5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        },
+        {
+          "zone": "30",
+          "pas": "TAS",
+          "prefix": "VK7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        }
+      ]
+    },
+    "152": {
+      "zones": [
+        "24"
+      ],
+      "parts": [
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "XX",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        }
+      ]
+    },
+    "153": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "VK0M",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        }
+      ]
+    },
+    "157": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "C2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "158": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "YJ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "159": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "8Q",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "160": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "A3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "161": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "162": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "FK",
+          "boundary": "but NOT Chesterfield Is.",
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "163": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "P2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "165": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "3B8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "166": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "KH0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "167": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "OJ0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "168": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "V7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "169": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FH",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "170": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "ZL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "171": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "VK9M",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        }
+      ]
+    },
+    "172": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "VP6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "173": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "V6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "174": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "175": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "FO",
+          "boundary": "but NOT Marquesas and Clipperton",
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "176": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "177": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "179": {
+      "zones": [
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "ER",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        }
+      ]
+    },
+    "180": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "SV/A",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "181": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "C9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "182": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "KP1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "185": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "H4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "187": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "5U",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "188": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "ZK2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "189": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "VK9N",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "190": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "5W",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "191": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "E5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "192": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "195": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "3C0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "197": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "199": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        }
+      ]
+    },
+    "201": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "ZS8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "202": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "KP4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "203": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "C3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "204": {
+      "zones": [
+        "6"
+      ],
+      "parts": [
+        {
+          "zone": "6",
+          "pas": null,
+          "prefix": "XF4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 6"
+        }
+      ]
+    },
+    "205": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "ZD8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "206": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "OE",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "207": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "3B9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "209": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "ON",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "211": {
+      "zones": [
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "CY0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "212": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "LZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "213": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "FS",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "214": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "TK",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "215": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "5B",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "216": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "217": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 12; Notes"
+        }
+      ]
+    },
+    "219": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "S9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "221": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "OZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "222": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "OY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "223": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "G",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "224": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "OH",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "225": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "IS0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "227": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "F",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "230": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "DL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "232": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "T5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "233": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "ZB",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "234": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "E5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "235": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "236": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "SV",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "237": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "OX",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 40"
+        }
+      ]
+    },
+    "238": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "239": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "HA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "240": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "241": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 13; Notes"
+        }
+      ]
+    },
+    "242": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "TF",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 40"
+        }
+      ]
+    },
+    "245": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "El",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "246": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "1A0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "247": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "1S/9M0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "248": {
+      "zones": [
+        "15",
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "I",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        },
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "IG9",
+          "boundary": "Pelagic Is.",
+          "source": "cq_waz_list.htm, Zone 33"
+        },
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "IH9 IG9",
+          "boundary": "Pantelleria Is. or Pelagic Islands",
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "249": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "V4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "250": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "ZD7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "251": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "HB0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "252": {
+      "zones": [
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "CY9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "253": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 11"
+        }
+      ]
+    },
+    "254": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "LX",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "256": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "CT3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "257": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "9H",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "259": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "JW",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 40"
+        }
+      ]
+    },
+    "260": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "3A",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "262": {
+      "zones": [
+        "17"
+      ],
+      "parts": [
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "EY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 17"
+        }
+      ]
+    },
+    "263": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "PA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "265": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "GI",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "266": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "LA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "269": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "SP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "270": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "ZK3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "272": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CT",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "273": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 11"
+        }
+      ]
+    },
+    "274": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "ZD9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "275": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "YO",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "276": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FT-T",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "277": {
+      "zones": [
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "FP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "278": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "T7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "279": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "GM",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "280": {
+      "zones": [
+        "17"
+      ],
+      "parts": [
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "EZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 17"
+        }
+      ]
+    },
+    "281": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "EA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "282": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "T2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "283": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "ZC4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "284": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "SM",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "285": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "KP2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "286": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "5X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "287": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "HB",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "288": {
+      "zones": [
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "UR",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 16"
+        }
+      ]
+    },
+    "289": {
+      "zones": [
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "4U1UN",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "291": {
+      "zones": [
+        "3",
+        "4",
+        "5"
+      ],
+      "parts": [
+        {
+          "zone": "3",
+          "pas": null,
+          "prefix": "W6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "3",
+          "pas": "AZ",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "3",
+          "pas": "ID",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "3",
+          "pas": "NV",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "3",
+          "pas": "OR",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "3",
+          "pas": "UT",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "3",
+          "pas": "WA",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 3"
+        },
+        {
+          "zone": "4",
+          "pas": "MT",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "WY",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": null,
+          "prefix": "W0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": null,
+          "prefix": "W9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": null,
+          "prefix": "W8",
+          "boundary": "except West Virginia",
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": null,
+          "prefix": "W5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "AL",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "TN",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "4",
+          "pas": "KY",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 4"
+        },
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "W1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "W2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "W3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "FL",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "GA",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "SC",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "NC",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "VA",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        },
+        {
+          "zone": "5",
+          "pas": "WV",
+          "prefix": "W8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 5"
+        }
+      ]
+    },
+    "292": {
+      "zones": [
+        "17"
+      ],
+      "parts": [
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "UK",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 17"
+        }
+      ]
+    },
+    "293": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "3W",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "294": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "GW",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 14"
+        }
+      ]
+    },
+    "295": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "HV",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "296": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "YU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "297": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "KH9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "298": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "FW",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "299": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "9M",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "301": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "T30",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "302": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "S0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "303": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        }
+      ]
+    },
+    "304": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "A9",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "305": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "S2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "306": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "A5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "308": {
+      "zones": [
+        "7"
+      ],
+      "parts": [
+        {
+          "zone": "7",
+          "pas": null,
+          "prefix": "TI",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 7"
+        }
+      ]
+    },
+    "309": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "XZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "312": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "XU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "315": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "4S",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "318": {
+      "zones": [
+        "23",
+        "24"
+      ],
+      "parts": [
+        {
+          "zone": "23",
+          "pas": "NM",
+          "prefix": "BY3G‑L",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        },
+        {
+          "zone": "23",
+          "pas": "GS",
+          "prefix": "BY9G‑L",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        },
+        {
+          "zone": "23",
+          "pas": "NX",
+          "prefix": "BY9M‑R",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        },
+        {
+          "zone": "23",
+          "pas": "QH",
+          "prefix": "BY9S‑Z",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        },
+        {
+          "zone": "23",
+          "pas": null,
+          "prefix": "BY0",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY1",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": "TJ",
+          "prefix": "BY3A‑F",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": "HE",
+          "prefix": "BY3M‑R",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": "SX",
+          "prefix": "BY3S-X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BY8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        },
+        {
+          "zone": "24",
+          "pas": "SN",
+          "prefix": "BY9A‑F",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        }
+      ]
+    },
+    "321": {
+      "zones": [
+        "24"
+      ],
+      "parts": [
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "VR",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        }
+      ]
+    },
+    "324": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "327": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "YB",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "330": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "EP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "333": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "YI",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "336": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "4X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "339": {
+      "zones": [
+        "25"
+      ],
+      "parts": [
+        {
+          "zone": "25",
+          "pas": null,
+          "prefix": "JA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 25"
+        }
+      ]
+    },
+    "342": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "JY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "344": {
+      "zones": [
+        "25"
+      ],
+      "parts": [
+        {
+          "zone": "25",
+          "pas": null,
+          "prefix": "P5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 25"
+        }
+      ]
+    },
+    "345": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "V8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "348": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "9K",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "354": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "OD",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "363": {
+      "zones": [
+        "23"
+      ],
+      "parts": [
+        {
+          "zone": "23",
+          "pas": null,
+          "prefix": "JT",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 23"
+        }
+      ]
+    },
+    "369": {
+      "zones": [
+        "22"
+      ],
+      "parts": [
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "9N",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 22"
+        }
+      ]
+    },
+    "370": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "A4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "372": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "AP",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "375": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "DU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "376": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "A7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "378": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "HZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "379": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "S7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "381": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "9V",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "382": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "J2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "384": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "YK",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "386": {
+      "zones": [
+        "24"
+      ],
+      "parts": [
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BV",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        }
+      ]
+    },
+    "387": {
+      "zones": [
+        "26"
+      ],
+      "parts": [
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "E2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 26; Notes"
+        }
+      ]
+    },
+    "390": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "TA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "391": {
+      "zones": [
+        "21"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "A6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 21"
+        }
+      ]
+    },
+    "400": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "7X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "401": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "D2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "402": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "A2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "404": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "9U",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "406": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "TJ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "408": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "TL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "409": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "D4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "410": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "TT",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "411": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "D6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "412": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "TN",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "414": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "9Q",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "416": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "TY",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "420": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "TR",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "422": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "C5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "424": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "9G",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "428": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "TU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "430": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "5Z",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "432": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "7P",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "434": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "EL",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "436": {
+      "zones": [
+        "34"
+      ],
+      "parts": [
+        {
+          "zone": "34",
+          "pas": null,
+          "prefix": "5A",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 34"
+        }
+      ]
+    },
+    "438": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "5R",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "440": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "7Q",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "442": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "TZ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "444": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "5T",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "446": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "CN",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "450": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "5N",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "452": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "Z2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "453": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 39; Notes"
+        }
+      ]
+    },
+    "454": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "9X",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "456": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "6W",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "458": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "9L",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "460": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "462": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "ZS",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "464": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "V5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "466": {
+      "zones": [
+        "34"
+      ],
+      "parts": [
+        {
+          "zone": "34",
+          "pas": null,
+          "prefix": "ST",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 34"
+        }
+      ]
+    },
+    "468": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "3DA",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 38; Notes"
+        }
+      ]
+    },
+    "470": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "5H",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "474": {
+      "zones": [
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "3V",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 33"
+        }
+      ]
+    },
+    "478": {
+      "zones": [
+        "34"
+      ],
+      "parts": [
+        {
+          "zone": "34",
+          "pas": null,
+          "prefix": "SU",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 34"
+        }
+      ]
+    },
+    "480": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "XT",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "482": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "9J",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 36"
+        }
+      ]
+    },
+    "483": {
+      "zones": [
+        "35"
+      ],
+      "parts": [
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "5V",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 35"
+        }
+      ]
+    },
+    "489": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "490": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "T33",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "492": {
+      "zones": [
+        "21",
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "7O",
+          "boundary": "excluding Socotra I. and Abd al Kuri Is.",
+          "source": "cq_waz_list.htm, Zone 21"
+        },
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "7O",
+          "boundary": "Socotra and Abd al Kuri islands ONLY",
+          "source": "cq_waz_list.htm, Zone 37"
+        }
+      ]
+    },
+    "497": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "9A",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "499": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "S5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "501": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "E7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "502": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "Z3",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "503": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "OK",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "504": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "OM",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "505": {
+      "zones": [
+        "24"
+      ],
+      "parts": [
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "BV9P",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 24"
+        }
+      ]
+    },
+    "506": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "BS7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 27"
+        }
+      ]
+    },
+    "507": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "H40",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "508": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "509": {
+      "zones": [
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 31"
+        }
+      ]
+    },
+    "510": {
+      "zones": [
+        "20"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "E4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 20"
+        }
+      ]
+    },
+    "511": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "4W",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 28"
+        }
+      ]
+    },
+    "512": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "FK/C",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 30; Notes"
+        }
+      ]
+    },
+    "513": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "VP6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "514": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "4O",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 15"
+        }
+      ]
+    },
+    "515": {
+      "zones": [
+        "32"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "KH8S",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 32; Notes"
+        }
+      ]
+    },
+    "516": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "FJ",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "517": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "PJ2",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "518": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "PJ7",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "519": {
+      "zones": [
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "PJ5",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": null,
+          "prefix": "PJ6",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 8"
+        }
+      ]
+    },
+    "520": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "PJ4",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 9"
+        }
+      ]
+    },
+    "521": {
+      "zones": [
+        "34"
+      ],
+      "parts": [
+        {
+          "zone": "34",
+          "pas": null,
+          "prefix": "Z8",
+          "boundary": null,
+          "source": "cq_waz_list.htm, Zone 34"
+        }
+      ]
+    }
+  }
+}
