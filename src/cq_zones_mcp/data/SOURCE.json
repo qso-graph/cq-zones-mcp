@@ -1,0 +1,23 @@
+{
+  "title": "CQ zones",
+  "schema": "cq_zones",
+  "owner": "CQ Communications, Inc. / World Wide Radio Operators Foundation (WWROF)",
+  "document_title": "CQ WAZ Zone Definitions",
+  "document": "cq_waz_list.htm",
+  "edition": "2018-04-01",
+  "url": "https://cqww.com/cq_waz_list.htm",
+  "authority": "CQ's Worked All Zones (WAZ) award and the CQ World Wide DX Contest define the 40 CQ zones.",
+  "terms": "Copyright (c) World Wide Radio Operators Foundation, Inc. All rights reserved (page footer). CQ magazine's copy of this list adds: '(c) CQ Communications, Inc. ... may not be reproduced or republished ... without the express written permission of the publisher. Hyperlinks to this page are permitted.' Shipped unchanged and credited; the copyright stays with its owners and this package's licence does not cover it.",
+  "adif_version": "3.1.7",
+  "published": {
+    "cq_waz_list.htm": {
+      "url": "https://cqww.com/cq_waz_list.htm",
+      "retrieved": "2026-10-06",
+      "sha256": "d4c941580214305a5871dcdf123e4d6d2d6a082974bb66c654cd9ad94c6f426d"
+    }
+  },
+  "facts": [
+    "cq_zones.json"
+  ],
+  "derived_note": "derived/entity_zones.json (ours): ADIF DXCC entity -> CQ zones, built from the facts."
+}

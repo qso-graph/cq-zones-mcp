@@ -1,0 +1,3071 @@
+{
+  "list": "cq_zones",
+  "owner": "CQ Communications / World Wide Radio Operators Foundation (WWROF)",
+  "document": "cq_waz_list.htm",
+  "edition": "2018-04-01",
+  "records": [
+    {
+      "code": "1",
+      "name": "Northwestern Zone of North America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 6,
+          "pas": null,
+          "prefix": "KL",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "YT",
+          "prefix": "VY1",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "NT",
+          "prefix": "VE8",
+          "boundary": "west of 102 degrees (Includes the islands of Victoria, Banks, Melville, and Prince Patrick)"
+        },
+        {
+          "dxcc": 1,
+          "pas": "NU",
+          "prefix": "VY0",
+          "boundary": "west of 102 degrees (Includes the islands of Victoria, Banks, Melville, and Prince Patrick)"
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 1",
+      "transcription_note": "CQ writes 'VE8 the Northwest and VY0 Nunavut Territories west of 102 degrees (Includes the islands of ...)'; the qualifier grammatically governs both territories, so it is recorded as the boundary of both the VE8 and VY0 covers."
+    },
+    {
+      "code": "2",
+      "name": "Northeastern Zone of North America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 1,
+          "pas": "NL",
+          "prefix": "VO2",
+          "boundary": "Labrador"
+        },
+        {
+          "dxcc": 1,
+          "pas": "QC",
+          "prefix": "VE2",
+          "boundary": "north of the 50th parallel"
+        },
+        {
+          "dxcc": 1,
+          "pas": "NU",
+          "prefix": null,
+          "boundary": "east of 102 degrees (Includes the islands of King Christian, King William. Prince of Wales, Somerset, Bathurst, Devon, Ellesmere, Baffin and the Melville and Boothia Peninsulas, excluding Akimiski Island, Bear Islands and East Pen Island in Hudson Bay)"
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 2",
+      "transcription_note": "Nunavut east of 102 degrees is named without a prefix (prefix null). 'King William. Prince of Wales' kept as published (period for comma). The exclusion list (Akimiski, Bear Islands, East Pen) omits Fox Island, which Zone 4 assigns to Zone 4 alongside them."
+    },
+    {
+      "code": "3",
+      "name": "Western Zone of North America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 1,
+          "pas": "BC",
+          "prefix": "VE7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W6",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "AZ",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "ID",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NV",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "OR",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "UT",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "WA",
+          "prefix": "W7",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 3"
+    },
+    {
+      "code": "4",
+      "name": "Central Zone of North America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 1,
+          "pas": "ON",
+          "prefix": "VE3",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "MB",
+          "prefix": "VE4",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "SK",
+          "prefix": "VE5",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "AB",
+          "prefix": "VE6",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "NU",
+          "prefix": "VY0",
+          "boundary": "Akimiski Island, and Bear Islands, and Fox Island and East Pen Island in Hudson Bay"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MT",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "WY",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W9",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W8",
+          "boundary": "except West Virginia"
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W5",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "AL",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "TN",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "KY",
+          "prefix": "W4",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 4",
+      "transcription_note": "VY0 islands mapped to ADIF NU (Nunavut) because Zone 2's Nunavut text names them as exclusions; CQ does not itself name the territory here."
+    },
+    {
+      "code": "5",
+      "name": "Eastern Zone of North America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 289,
+          "pas": null,
+          "prefix": "4U1UN",
+          "boundary": null
+        },
+        {
+          "dxcc": 252,
+          "pas": null,
+          "prefix": "CY9",
+          "boundary": null
+        },
+        {
+          "dxcc": 211,
+          "pas": null,
+          "prefix": "CY0",
+          "boundary": null
+        },
+        {
+          "dxcc": 277,
+          "pas": null,
+          "prefix": "FP",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "NS",
+          "prefix": "VE1",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "NB",
+          "prefix": "VE9",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "PE",
+          "prefix": "VY2",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": "NL",
+          "prefix": "VO1",
+          "boundary": "Newfoundland"
+        },
+        {
+          "dxcc": 1,
+          "pas": "QC",
+          "prefix": "VE2",
+          "boundary": "south of the 50th parallel"
+        },
+        {
+          "dxcc": 64,
+          "pas": null,
+          "prefix": "VP9",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W2",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": null,
+          "prefix": "W3",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "FL",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "GA",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "SC",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NC",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "VA",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "WV",
+          "prefix": "W8",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 5",
+      "transcription_note": "'4U1UN, CY9' is set as one bold run in the HTML; recorded as two covers."
+    },
+    {
+      "code": "6",
+      "name": "Southern Zone of North America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 50,
+          "pas": null,
+          "prefix": "XE",
+          "boundary": null
+        },
+        {
+          "dxcc": 204,
+          "pas": null,
+          "prefix": "XF4",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 6"
+    },
+    {
+      "code": "7",
+      "name": "Central American Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 36,
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null
+        },
+        {
+          "dxcc": 216,
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null
+        },
+        {
+          "dxcc": 88,
+          "pas": null,
+          "prefix": "HP",
+          "boundary": null
+        },
+        {
+          "dxcc": 80,
+          "pas": null,
+          "prefix": "HR",
+          "boundary": null
+        },
+        {
+          "dxcc": 76,
+          "pas": null,
+          "prefix": "TG",
+          "boundary": null
+        },
+        {
+          "dxcc": 308,
+          "pas": null,
+          "prefix": "TI",
+          "boundary": null
+        },
+        {
+          "dxcc": 37,
+          "pas": null,
+          "prefix": "TI9",
+          "boundary": null
+        },
+        {
+          "dxcc": 66,
+          "pas": null,
+          "prefix": "V3",
+          "boundary": null
+        },
+        {
+          "dxcc": 86,
+          "pas": null,
+          "prefix": "YN",
+          "boundary": null
+        },
+        {
+          "dxcc": 74,
+          "pas": null,
+          "prefix": "YS",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 7",
+      "transcription_note": "FO is mapped by the area CQ names (Clipperton, ADIF 36); HK0 by San Andres Is. (ADIF 216)."
+    },
+    {
+      "code": "8",
+      "name": "West Indies Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 60,
+          "pas": null,
+          "prefix": "C6",
+          "boundary": null
+        },
+        {
+          "dxcc": 70,
+          "pas": null,
+          "prefix": "CO",
+          "boundary": null
+        },
+        {
+          "dxcc": 79,
+          "pas": null,
+          "prefix": "FG",
+          "boundary": null
+        },
+        {
+          "dxcc": 516,
+          "pas": null,
+          "prefix": "FJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 84,
+          "pas": null,
+          "prefix": "FM",
+          "boundary": null
+        },
+        {
+          "dxcc": 213,
+          "pas": null,
+          "prefix": "FS",
+          "boundary": null
+        },
+        {
+          "dxcc": 78,
+          "pas": null,
+          "prefix": "HH",
+          "boundary": null
+        },
+        {
+          "dxcc": 72,
+          "pas": null,
+          "prefix": "HI",
+          "boundary": null
+        },
+        {
+          "dxcc": 77,
+          "pas": null,
+          "prefix": "J3",
+          "boundary": null
+        },
+        {
+          "dxcc": 97,
+          "pas": null,
+          "prefix": "J6",
+          "boundary": null
+        },
+        {
+          "dxcc": 95,
+          "pas": null,
+          "prefix": "J7",
+          "boundary": null
+        },
+        {
+          "dxcc": 98,
+          "pas": null,
+          "prefix": "J8",
+          "boundary": null
+        },
+        {
+          "dxcc": 105,
+          "pas": null,
+          "prefix": "KG4",
+          "boundary": null
+        },
+        {
+          "dxcc": 182,
+          "pas": null,
+          "prefix": "KP1",
+          "boundary": null
+        },
+        {
+          "dxcc": 285,
+          "pas": null,
+          "prefix": "KP2",
+          "boundary": null
+        },
+        {
+          "dxcc": 202,
+          "pas": null,
+          "prefix": "KP4",
+          "boundary": null
+        },
+        {
+          "dxcc": 43,
+          "pas": null,
+          "prefix": "KP5",
+          "boundary": null
+        },
+        {
+          "dxcc": 519,
+          "pas": null,
+          "prefix": "PJ5",
+          "boundary": null
+        },
+        {
+          "dxcc": 519,
+          "pas": null,
+          "prefix": "PJ6",
+          "boundary": null
+        },
+        {
+          "dxcc": 518,
+          "pas": null,
+          "prefix": "PJ7",
+          "boundary": null
+        },
+        {
+          "dxcc": 94,
+          "pas": null,
+          "prefix": "V2",
+          "boundary": null
+        },
+        {
+          "dxcc": 249,
+          "pas": null,
+          "prefix": "V4",
+          "boundary": null
+        },
+        {
+          "dxcc": 12,
+          "pas": null,
+          "prefix": "VP2E",
+          "boundary": null
+        },
+        {
+          "dxcc": 96,
+          "pas": null,
+          "prefix": "VP2M",
+          "boundary": null
+        },
+        {
+          "dxcc": 65,
+          "pas": null,
+          "prefix": "VP2V",
+          "boundary": null
+        },
+        {
+          "dxcc": 89,
+          "pas": null,
+          "prefix": "VP5",
+          "boundary": null
+        },
+        {
+          "dxcc": 17,
+          "pas": null,
+          "prefix": "YV0",
+          "boundary": null
+        },
+        {
+          "dxcc": 69,
+          "pas": null,
+          "prefix": "ZF",
+          "boundary": null
+        },
+        {
+          "dxcc": 82,
+          "pas": null,
+          "prefix": "6Y",
+          "boundary": null
+        },
+        {
+          "dxcc": 62,
+          "pas": null,
+          "prefix": "8P",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 8",
+      "transcription_note": "Published 'KP5 (Navassa Is.)' is an evident error: KP1 is already '(Navassa Is.)', and KP5 is Desecheo I. (ARRL; ADIF 43). The KP5 cover is mapped by its prefix to ADIF 43 (Desecheo); the published label is kept here only. Also as published: 'KP2 Virgin Islands)' (no opening parenthesis). PJ5 (Eustatius) and PJ6 (Saba) both map to ADIF 519 (Saba & St. Eustatius)."
+    },
+    {
+      "code": "9",
+      "name": "Northern Zone of South America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 63,
+          "pas": null,
+          "prefix": "FY",
+          "boundary": null
+        },
+        {
+          "dxcc": 116,
+          "pas": null,
+          "prefix": "HK",
+          "boundary": null
+        },
+        {
+          "dxcc": 161,
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null
+        },
+        {
+          "dxcc": 517,
+          "pas": null,
+          "prefix": "PJ2",
+          "boundary": null
+        },
+        {
+          "dxcc": 520,
+          "pas": null,
+          "prefix": "PJ4",
+          "boundary": null
+        },
+        {
+          "dxcc": 140,
+          "pas": null,
+          "prefix": "PZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 148,
+          "pas": null,
+          "prefix": "YV",
+          "boundary": null
+        },
+        {
+          "dxcc": 129,
+          "pas": null,
+          "prefix": "8R",
+          "boundary": null
+        },
+        {
+          "dxcc": 91,
+          "pas": null,
+          "prefix": "P4",
+          "boundary": null
+        },
+        {
+          "dxcc": 90,
+          "pas": null,
+          "prefix": "9Y",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 9",
+      "transcription_note": "HK0 mapped by the area CQ names (Malpelo Is., ADIF 161). '8R (Guiana)' = Guyana (ADIF 129)."
+    },
+    {
+      "code": "10",
+      "name": "Western Zone of South America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 104,
+          "pas": null,
+          "prefix": "CP",
+          "boundary": null
+        },
+        {
+          "dxcc": 120,
+          "pas": null,
+          "prefix": "HC",
+          "boundary": null
+        },
+        {
+          "dxcc": 71,
+          "pas": null,
+          "prefix": "HC8",
+          "boundary": null
+        },
+        {
+          "dxcc": 136,
+          "pas": null,
+          "prefix": "OA",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 10"
+    },
+    {
+      "code": "11",
+      "name": "Central Zone of South America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 108,
+          "pas": null,
+          "prefix": "PY",
+          "boundary": null
+        },
+        {
+          "dxcc": 56,
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null
+        },
+        {
+          "dxcc": 253,
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null
+        },
+        {
+          "dxcc": 273,
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null
+        },
+        {
+          "dxcc": 132,
+          "pas": null,
+          "prefix": "ZP",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 11",
+      "transcription_note": "Each PY0 is mapped by the area CQ names (Fernando de Noronha 56; St. Peter and Paul Rocks 253; Trinidad Martin Vaz 273). As published: 'PY0 (Fernando de Noronha,' lacks its closing parenthesis."
+    },
+    {
+      "code": "12",
+      "name": "Southwest Zone of South America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 112,
+          "pas": null,
+          "prefix": "CE",
+          "boundary": null
+        },
+        {
+          "dxcc": 47,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null
+        },
+        {
+          "dxcc": 125,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null
+        },
+        {
+          "dxcc": 217,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null
+        },
+        {
+          "dxcc": 199,
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 12; Notes",
+      "transcription_note": "Each CE0 is mapped by the area CQ names (Easter 47; Juan Fernandez 125; San Felix 217); 3Y by 'Peter I' (199). Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "13",
+      "name": "Southeast Zone of South America",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 144,
+          "pas": null,
+          "prefix": "CX",
+          "boundary": null
+        },
+        {
+          "dxcc": 100,
+          "pas": null,
+          "prefix": "LU",
+          "boundary": null
+        },
+        {
+          "dxcc": 141,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 235,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 238,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 241,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 240,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 13; Notes",
+      "transcription_note": "Each VP8 is mapped by the area CQ names (Falklands 141; South Georgia 235; South Orkney 238; South Shetlands 241; South Sandwich 240). Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "14",
+      "name": "Western Zone of Europe",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 203,
+          "pas": null,
+          "prefix": "C3",
+          "boundary": null
+        },
+        {
+          "dxcc": 272,
+          "pas": null,
+          "prefix": "CT",
+          "boundary": null
+        },
+        {
+          "dxcc": 149,
+          "pas": null,
+          "prefix": "CU",
+          "boundary": null
+        },
+        {
+          "dxcc": 230,
+          "pas": null,
+          "prefix": "DL",
+          "boundary": null
+        },
+        {
+          "dxcc": 281,
+          "pas": null,
+          "prefix": "EA",
+          "boundary": null
+        },
+        {
+          "dxcc": 21,
+          "pas": null,
+          "prefix": "EA6",
+          "boundary": null
+        },
+        {
+          "dxcc": 245,
+          "pas": null,
+          "prefix": "El",
+          "boundary": null
+        },
+        {
+          "dxcc": 227,
+          "pas": null,
+          "prefix": "F",
+          "boundary": null
+        },
+        {
+          "dxcc": 223,
+          "pas": null,
+          "prefix": "G",
+          "boundary": null
+        },
+        {
+          "dxcc": 114,
+          "pas": null,
+          "prefix": "GD",
+          "boundary": null
+        },
+        {
+          "dxcc": 265,
+          "pas": null,
+          "prefix": "GI",
+          "boundary": null
+        },
+        {
+          "dxcc": 122,
+          "pas": null,
+          "prefix": "GJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 279,
+          "pas": null,
+          "prefix": "GM",
+          "boundary": null
+        },
+        {
+          "dxcc": 106,
+          "pas": null,
+          "prefix": "GU",
+          "boundary": null
+        },
+        {
+          "dxcc": 294,
+          "pas": null,
+          "prefix": "GW",
+          "boundary": null
+        },
+        {
+          "dxcc": 287,
+          "pas": null,
+          "prefix": "HB",
+          "boundary": null
+        },
+        {
+          "dxcc": 251,
+          "pas": null,
+          "prefix": "HB0",
+          "boundary": null
+        },
+        {
+          "dxcc": 266,
+          "pas": null,
+          "prefix": "LA",
+          "boundary": null
+        },
+        {
+          "dxcc": 254,
+          "pas": null,
+          "prefix": "LX",
+          "boundary": null
+        },
+        {
+          "dxcc": 209,
+          "pas": null,
+          "prefix": "ON",
+          "boundary": null
+        },
+        {
+          "dxcc": 222,
+          "pas": null,
+          "prefix": "OY",
+          "boundary": null
+        },
+        {
+          "dxcc": 221,
+          "pas": null,
+          "prefix": "OZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 263,
+          "pas": null,
+          "prefix": "PA",
+          "boundary": null
+        },
+        {
+          "dxcc": 284,
+          "pas": null,
+          "prefix": "SM",
+          "boundary": null
+        },
+        {
+          "dxcc": 233,
+          "pas": null,
+          "prefix": "ZB",
+          "boundary": null
+        },
+        {
+          "dxcc": 260,
+          "pas": null,
+          "prefix": "3A",
+          "boundary": null
+        },
+        {
+          "dxcc": 117,
+          "pas": null,
+          "prefix": "4U1ITU",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 14",
+      "transcription_note": "Published prefix 'El' (Ireland) is an evident typo for EI (lower-case L for I); kept as published and mapped to Ireland (ADIF 245). DL mapped to ADIF 230 (Federal Republic of Germany; ADIF 81 'Germany' is deleted)."
+    },
+    {
+      "code": "15",
+      "name": "Central European Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 501,
+          "pas": null,
+          "prefix": "E7",
+          "boundary": null
+        },
+        {
+          "dxcc": 52,
+          "pas": null,
+          "prefix": "ES",
+          "boundary": null
+        },
+        {
+          "dxcc": 239,
+          "pas": null,
+          "prefix": "HA",
+          "boundary": null
+        },
+        {
+          "dxcc": 295,
+          "pas": null,
+          "prefix": "HV",
+          "boundary": null
+        },
+        {
+          "dxcc": 248,
+          "pas": null,
+          "prefix": "I",
+          "boundary": null
+        },
+        {
+          "dxcc": 225,
+          "pas": null,
+          "prefix": "IS0",
+          "boundary": null
+        },
+        {
+          "dxcc": 146,
+          "pas": null,
+          "prefix": "LY",
+          "boundary": null
+        },
+        {
+          "dxcc": 206,
+          "pas": null,
+          "prefix": "OE",
+          "boundary": null
+        },
+        {
+          "dxcc": 224,
+          "pas": null,
+          "prefix": "OH",
+          "boundary": null
+        },
+        {
+          "dxcc": 5,
+          "pas": null,
+          "prefix": "OH0",
+          "boundary": null
+        },
+        {
+          "dxcc": 167,
+          "pas": null,
+          "prefix": "OJ0",
+          "boundary": null
+        },
+        {
+          "dxcc": 503,
+          "pas": null,
+          "prefix": "OK",
+          "boundary": null
+        },
+        {
+          "dxcc": 504,
+          "pas": null,
+          "prefix": "OM",
+          "boundary": null
+        },
+        {
+          "dxcc": 499,
+          "pas": null,
+          "prefix": "S5",
+          "boundary": null
+        },
+        {
+          "dxcc": 269,
+          "pas": null,
+          "prefix": "SP",
+          "boundary": null
+        },
+        {
+          "dxcc": 278,
+          "pas": null,
+          "prefix": "T7",
+          "boundary": null
+        },
+        {
+          "dxcc": 214,
+          "pas": null,
+          "prefix": "TK",
+          "boundary": null
+        },
+        {
+          "dxcc": 126,
+          "pas": null,
+          "prefix": "UA2,F,K, RA2,UB2-UI2",
+          "boundary": null
+        },
+        {
+          "dxcc": 145,
+          "pas": null,
+          "prefix": "YL",
+          "boundary": null
+        },
+        {
+          "dxcc": 296,
+          "pas": null,
+          "prefix": "YU",
+          "boundary": null
+        },
+        {
+          "dxcc": 7,
+          "pas": null,
+          "prefix": "ZA",
+          "boundary": null
+        },
+        {
+          "dxcc": 502,
+          "pas": null,
+          "prefix": "Z3",
+          "boundary": null
+        },
+        {
+          "dxcc": 246,
+          "pas": null,
+          "prefix": "1A0",
+          "boundary": null
+        },
+        {
+          "dxcc": 514,
+          "pas": null,
+          "prefix": "4O",
+          "boundary": null
+        },
+        {
+          "dxcc": 497,
+          "pas": null,
+          "prefix": "9A",
+          "boundary": null
+        },
+        {
+          "dxcc": 257,
+          "pas": null,
+          "prefix": "9H",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 15",
+      "transcription_note": "Kaliningrad prefix string 'UA2,F,K, RA2,UB2-UI2' kept as one published cover (ADIF 126)."
+    },
+    {
+      "code": "16",
+      "name": "Eastern Zone of Europe",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 27,
+          "pas": null,
+          "prefix": "EW",
+          "boundary": null
+        },
+        {
+          "dxcc": 179,
+          "pas": null,
+          "prefix": "ER",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": null
+        },
+        {
+          "dxcc": 126,
+          "pas": null,
+          "prefix": "UA2",
+          "boundary": "except for RA2 and UA2-UI2"
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA3",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA4",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA5",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA6",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA7",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA9",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA9 (S,T,W)",
+          "boundary": null
+        },
+        {
+          "dxcc": 288,
+          "pas": null,
+          "prefix": "UR",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 16",
+      "transcription_note": "Published run 'UA1, UA2(except for RA2 and UA2-UI2), UA3. UA4,  UA5,UA6, UA7,UA9,UA9 (S,T,W)' split into one cover per prefix ('UA3.' recorded as 'UA3'). AMBIGUOUS: (a) UA2 is Kaliningrad's prefix (ARRL; Zone 15 here), so 'UA2 except for RA2 and UA2-UI2' has no evident remainder; mapped by prefix to ADIF 126 Kaliningrad, flagged. (b) A bare 'UA9' precedes 'UA9 (S,T,W)'; a bare UA9 would contradict Zones 17-18, so it is likely a stray duplicate; kept as published and mapped by prefix to ADIF 15 (Asiatic Russia). UA9 S/T/W (Orenburg, Bashkortostan per ADIF subdivisions) are ADIF 15 Asiatic Russia."
+    },
+    {
+      "code": "17",
+      "name": "Western Zone of Siberia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 135,
+          "pas": null,
+          "prefix": "EX",
+          "boundary": null
+        },
+        {
+          "dxcc": 262,
+          "pas": null,
+          "prefix": "EY",
+          "boundary": null
+        },
+        {
+          "dxcc": 280,
+          "pas": null,
+          "prefix": "EZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA8,9 (A, B,C,D, F, G, J. K, L, M, N, Q,R, X)",
+          "boundary": null
+        },
+        {
+          "dxcc": 292,
+          "pas": null,
+          "prefix": "UK",
+          "boundary": null
+        },
+        {
+          "dxcc": 130,
+          "pas": null,
+          "prefix": "UN",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 17",
+      "transcription_note": "Russian prefix/suffix string kept as one published cover ('J. K' as published)."
+    },
+    {
+      "code": "18",
+      "name": "Central Siberian Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA8,9 (H,I,O,P,U, V,Y,Z)",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UAO (A, B, H, O,R, S,T, U,V, W",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 18",
+      "transcription_note": "As published, 'UAO' uses the letter O where UA0 (zero) is evidently meant, and the parenthesis is not closed. Both kept verbatim; mapped to ADIF 15 (Asiatic Russia)."
+    },
+    {
+      "code": "19",
+      "name": "Eastern Siberian Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0 (C, D, F, I, J, K, L, Q, X, Z)",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 19"
+    },
+    {
+      "code": "20",
+      "name": "Balkan Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 510,
+          "pas": null,
+          "prefix": "E4",
+          "boundary": null
+        },
+        {
+          "dxcc": 342,
+          "pas": null,
+          "prefix": "JY",
+          "boundary": null
+        },
+        {
+          "dxcc": 212,
+          "pas": null,
+          "prefix": "LZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 354,
+          "pas": null,
+          "prefix": "OD",
+          "boundary": null
+        },
+        {
+          "dxcc": 236,
+          "pas": null,
+          "prefix": "SV",
+          "boundary": null
+        },
+        {
+          "dxcc": 180,
+          "pas": null,
+          "prefix": "SV/A",
+          "boundary": null
+        },
+        {
+          "dxcc": 45,
+          "pas": null,
+          "prefix": "SV5",
+          "boundary": null
+        },
+        {
+          "dxcc": 40,
+          "pas": null,
+          "prefix": "SV9",
+          "boundary": null
+        },
+        {
+          "dxcc": 390,
+          "pas": null,
+          "prefix": "TA",
+          "boundary": null
+        },
+        {
+          "dxcc": 384,
+          "pas": null,
+          "prefix": "YK",
+          "boundary": null
+        },
+        {
+          "dxcc": 275,
+          "pas": null,
+          "prefix": "YO",
+          "boundary": null
+        },
+        {
+          "dxcc": 283,
+          "pas": null,
+          "prefix": "ZC4",
+          "boundary": null
+        },
+        {
+          "dxcc": 336,
+          "pas": null,
+          "prefix": "4X",
+          "boundary": null
+        },
+        {
+          "dxcc": 215,
+          "pas": null,
+          "prefix": "5B",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 20",
+      "transcription_note": "E4 mapped to ADIF 510 (current Palestine), not 196 (deleted)."
+    },
+    {
+      "code": "21",
+      "name": "Southwestern Zone of Asia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 370,
+          "pas": null,
+          "prefix": "A4",
+          "boundary": null
+        },
+        {
+          "dxcc": 391,
+          "pas": null,
+          "prefix": "A6",
+          "boundary": null
+        },
+        {
+          "dxcc": 376,
+          "pas": null,
+          "prefix": "A7",
+          "boundary": null
+        },
+        {
+          "dxcc": 304,
+          "pas": null,
+          "prefix": "A9",
+          "boundary": null
+        },
+        {
+          "dxcc": 372,
+          "pas": null,
+          "prefix": "AP",
+          "boundary": null
+        },
+        {
+          "dxcc": 14,
+          "pas": null,
+          "prefix": "EK",
+          "boundary": null
+        },
+        {
+          "dxcc": 330,
+          "pas": null,
+          "prefix": "EP",
+          "boundary": null
+        },
+        {
+          "dxcc": 378,
+          "pas": null,
+          "prefix": "HZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 3,
+          "pas": null,
+          "prefix": "YA",
+          "boundary": null
+        },
+        {
+          "dxcc": 333,
+          "pas": null,
+          "prefix": "YI",
+          "boundary": null
+        },
+        {
+          "dxcc": 18,
+          "pas": null,
+          "prefix": "4J",
+          "boundary": null
+        },
+        {
+          "dxcc": 75,
+          "pas": null,
+          "prefix": "4L",
+          "boundary": null
+        },
+        {
+          "dxcc": 492,
+          "pas": null,
+          "prefix": "7O",
+          "boundary": "excluding Socotra I. and Abd al Kuri Is."
+        },
+        {
+          "dxcc": 348,
+          "pas": null,
+          "prefix": "9K",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 21"
+    },
+    {
+      "code": "22",
+      "name": "Southern Zone of Asia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 306,
+          "pas": null,
+          "prefix": "A5",
+          "boundary": null
+        },
+        {
+          "dxcc": 305,
+          "pas": null,
+          "prefix": "S2",
+          "boundary": null
+        },
+        {
+          "dxcc": 324,
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null
+        },
+        {
+          "dxcc": 142,
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null
+        },
+        {
+          "dxcc": 315,
+          "pas": null,
+          "prefix": "4S",
+          "boundary": null
+        },
+        {
+          "dxcc": 159,
+          "pas": null,
+          "prefix": "8Q",
+          "boundary": null
+        },
+        {
+          "dxcc": 369,
+          "pas": null,
+          "prefix": "9N",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 22",
+      "transcription_note": "Second VU mapped by the area CQ names (Lakshadweep Is., ADIF 142)."
+    },
+    {
+      "code": "23",
+      "name": "Central Zone of Asia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 363,
+          "pas": null,
+          "prefix": "JT",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0Y",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "NM",
+          "prefix": "BY3G‑L",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "GS",
+          "prefix": "BY9G‑L",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "NX",
+          "prefix": "BY9M‑R",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "QH",
+          "prefix": "BY9S‑Z",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY0",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 23",
+      "transcription_note": "Chinese provinces named by CQ mapped to ADIF China subdivisions (NeiMenggu NM, GanSu GS, NingXia NX, QingHai QH). Prefix ranges keep the published U+2011 non-breaking hyphen. 'UA0Y, BY3G-L' is one bold run in the HTML; recorded as two covers. 'BY0.' recorded as 'BY0'."
+    },
+    {
+      "code": "24",
+      "name": "Eastern Zone of Asia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 505,
+          "pas": null,
+          "prefix": "BV9P",
+          "boundary": null
+        },
+        {
+          "dxcc": 386,
+          "pas": null,
+          "prefix": "BV",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY1",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY2",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "TJ",
+          "prefix": "BY3A‑F",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "HE",
+          "prefix": "BY3M‑R",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "SX",
+          "prefix": "BY3S-X",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY4",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY5",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY6",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY7",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY8",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": "SN",
+          "prefix": "BY9A‑F",
+          "boundary": null
+        },
+        {
+          "dxcc": 321,
+          "pas": null,
+          "prefix": "VR",
+          "boundary": null
+        },
+        {
+          "dxcc": 152,
+          "pas": null,
+          "prefix": "XX",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 24",
+      "transcription_note": "Chinese provinces named by CQ mapped to ADIF China subdivisions (TianJin TJ, HeBei HE, ShanXi SX, ShaanXi SN). Prefix ranges keep the published hyphen characters (U+2011 except 'BY3S-X', which is published with an ASCII hyphen)."
+    },
+    {
+      "code": "25",
+      "name": "Japanese Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 137,
+          "pas": null,
+          "prefix": "HL",
+          "boundary": null
+        },
+        {
+          "dxcc": 339,
+          "pas": null,
+          "prefix": "JA",
+          "boundary": null
+        },
+        {
+          "dxcc": 344,
+          "pas": null,
+          "prefix": "P5",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 25"
+    },
+    {
+      "code": "26",
+      "name": "Southeastern Zone of Asia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": null,
+          "pas": null,
+          "prefix": null,
+          "boundary": null
+        },
+        {
+          "dxcc": 293,
+          "pas": null,
+          "prefix": "3W",
+          "boundary": null
+        },
+        {
+          "dxcc": 387,
+          "pas": null,
+          "prefix": "E2",
+          "boundary": null
+        },
+        {
+          "dxcc": 11,
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null
+        },
+        {
+          "dxcc": 312,
+          "pas": null,
+          "prefix": "XU",
+          "boundary": null
+        },
+        {
+          "dxcc": 143,
+          "pas": null,
+          "prefix": "XW",
+          "boundary": null
+        },
+        {
+          "dxcc": 309,
+          "pas": null,
+          "prefix": "XZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 247,
+          "pas": null,
+          "prefix": "1S/9M0",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 26; Notes",
+      "transcription_note": "First cover is '(Paracel Islands)', footnoted: 'The Paracel Islands have no official or unofficial prefix' (Notes). Paracel Islands are not an ADIF DXCC entity, so prefix and dxcc are null. VU mapped by the area CQ names (Andaman and Nicobar Islands, ADIF 11)."
+    },
+    {
+      "code": "27",
+      "name": "Philippine Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 506,
+          "pas": null,
+          "prefix": "BS7",
+          "boundary": null
+        },
+        {
+          "dxcc": 375,
+          "pas": null,
+          "prefix": "DU",
+          "boundary": null
+        },
+        {
+          "dxcc": 177,
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null
+        },
+        {
+          "dxcc": 192,
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null
+        },
+        {
+          "dxcc": 22,
+          "pas": null,
+          "prefix": "T8",
+          "boundary": null
+        },
+        {
+          "dxcc": 103,
+          "pas": null,
+          "prefix": "KH2",
+          "boundary": null
+        },
+        {
+          "dxcc": 166,
+          "pas": null,
+          "prefix": "KH0",
+          "boundary": null
+        },
+        {
+          "dxcc": 173,
+          "pas": null,
+          "prefix": "V6",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 27",
+      "transcription_note": "Each JD1 mapped by the area CQ names (Minami Torishima 177; Ogasawara 192)."
+    },
+    {
+      "code": "28",
+      "name": "Indonesian Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 185,
+          "pas": null,
+          "prefix": "H4",
+          "boundary": null
+        },
+        {
+          "dxcc": 163,
+          "pas": null,
+          "prefix": "P2",
+          "boundary": null
+        },
+        {
+          "dxcc": 345,
+          "pas": null,
+          "prefix": "V8",
+          "boundary": null
+        },
+        {
+          "dxcc": 327,
+          "pas": null,
+          "prefix": "YB",
+          "boundary": null
+        },
+        {
+          "dxcc": 511,
+          "pas": null,
+          "prefix": "4W",
+          "boundary": null
+        },
+        {
+          "dxcc": 299,
+          "pas": null,
+          "prefix": "9M",
+          "boundary": null
+        },
+        {
+          "dxcc": 46,
+          "pas": null,
+          "prefix": "9M",
+          "boundary": null
+        },
+        {
+          "dxcc": 381,
+          "pas": null,
+          "prefix": "9V",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 28",
+      "transcription_note": "'9M (West and East Malaysia)' names two ADIF entities; recorded as two covers (West Malaysia 299, East Malaysia 46)."
+    },
+    {
+      "code": "29",
+      "name": "Western Zone of Australia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 150,
+          "pas": "WA",
+          "prefix": "VK6",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "NT",
+          "prefix": "VK8",
+          "boundary": null
+        },
+        {
+          "dxcc": 35,
+          "pas": null,
+          "prefix": "VK9X",
+          "boundary": null
+        },
+        {
+          "dxcc": 38,
+          "pas": null,
+          "prefix": "VK9C",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations :(See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 29; Notes",
+      "transcription_note": "Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "30",
+      "name": "Eastern Zone of Australia",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 512,
+          "pas": null,
+          "prefix": "FK/C",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "ACT",
+          "prefix": "VK1",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "NSW",
+          "prefix": "VK2",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "VIC",
+          "prefix": "VK3",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "QLD",
+          "prefix": "VK4",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "SA",
+          "prefix": "VK5",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": "TAS",
+          "prefix": "VK7",
+          "boundary": null
+        },
+        {
+          "dxcc": 147,
+          "pas": null,
+          "prefix": "VK9L",
+          "boundary": null
+        },
+        {
+          "dxcc": 171,
+          "pas": null,
+          "prefix": "VK9M",
+          "boundary": null
+        },
+        {
+          "dxcc": 303,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        },
+        {
+          "dxcc": 153,
+          "pas": null,
+          "prefix": "VK0M",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 30; Notes",
+      "transcription_note": "'VK9 (Willis Is.)' mapped by the area CQ names (ADIF 303). Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "31",
+      "name": "Central Pacific Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 157,
+          "pas": null,
+          "prefix": "C2",
+          "boundary": null
+        },
+        {
+          "dxcc": 509,
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null
+        },
+        {
+          "dxcc": 20,
+          "pas": null,
+          "prefix": "KH1",
+          "boundary": null
+        },
+        {
+          "dxcc": 123,
+          "pas": null,
+          "prefix": "KH3",
+          "boundary": null
+        },
+        {
+          "dxcc": 174,
+          "pas": null,
+          "prefix": "KH4",
+          "boundary": null
+        },
+        {
+          "dxcc": 134,
+          "pas": null,
+          "prefix": "KH5K",
+          "boundary": null
+        },
+        {
+          "dxcc": 197,
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": null
+        },
+        {
+          "dxcc": 110,
+          "pas": null,
+          "prefix": "KH6",
+          "boundary": null
+        },
+        {
+          "dxcc": 138,
+          "pas": null,
+          "prefix": "KH7K",
+          "boundary": null
+        },
+        {
+          "dxcc": 297,
+          "pas": null,
+          "prefix": "KH9",
+          "boundary": null
+        },
+        {
+          "dxcc": 282,
+          "pas": null,
+          "prefix": "T2",
+          "boundary": null
+        },
+        {
+          "dxcc": 301,
+          "pas": null,
+          "prefix": "T30",
+          "boundary": null
+        },
+        {
+          "dxcc": 31,
+          "pas": null,
+          "prefix": "T31",
+          "boundary": null
+        },
+        {
+          "dxcc": 48,
+          "pas": null,
+          "prefix": "T32",
+          "boundary": null
+        },
+        {
+          "dxcc": 490,
+          "pas": null,
+          "prefix": "T33",
+          "boundary": null
+        },
+        {
+          "dxcc": 168,
+          "pas": null,
+          "prefix": "V7",
+          "boundary": null
+        },
+        {
+          "dxcc": 270,
+          "pas": null,
+          "prefix": "ZK3",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 31",
+      "transcription_note": "KH5K (Kingman Reef) maps to ADIF 134, which ADIF and ARRL list as DELETED; CQ's 2018 list still names it. As published: 'Johnson Is.' (Johnston I., ADIF 123) and 'Bananba Is' (Banaba I., ADIF 490). FO mapped by the area CQ names (Marquesas, ADIF 509)."
+    },
+    {
+      "code": "32",
+      "name": "New Zealand Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 160,
+          "pas": null,
+          "prefix": "A3",
+          "boundary": null
+        },
+        {
+          "dxcc": 191,
+          "pas": null,
+          "prefix": "E5",
+          "boundary": null
+        },
+        {
+          "dxcc": 234,
+          "pas": null,
+          "prefix": "E5",
+          "boundary": null
+        },
+        {
+          "dxcc": 162,
+          "pas": null,
+          "prefix": "FK",
+          "boundary": "but NOT Chesterfield Is."
+        },
+        {
+          "dxcc": 175,
+          "pas": null,
+          "prefix": "FO",
+          "boundary": "but NOT Marquesas and Clipperton"
+        },
+        {
+          "dxcc": 508,
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null
+        },
+        {
+          "dxcc": 298,
+          "pas": null,
+          "prefix": "FW",
+          "boundary": null
+        },
+        {
+          "dxcc": 507,
+          "pas": null,
+          "prefix": "H40",
+          "boundary": null
+        },
+        {
+          "dxcc": 9,
+          "pas": null,
+          "prefix": "KH8",
+          "boundary": null
+        },
+        {
+          "dxcc": 515,
+          "pas": null,
+          "prefix": "KH8S",
+          "boundary": null
+        },
+        {
+          "dxcc": 189,
+          "pas": null,
+          "prefix": "VK9N",
+          "boundary": null
+        },
+        {
+          "dxcc": 172,
+          "pas": null,
+          "prefix": "VP6",
+          "boundary": null
+        },
+        {
+          "dxcc": 513,
+          "pas": null,
+          "prefix": "VP6",
+          "boundary": null
+        },
+        {
+          "dxcc": 158,
+          "pas": null,
+          "prefix": "YJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 188,
+          "pas": null,
+          "prefix": "ZK2",
+          "boundary": null
+        },
+        {
+          "dxcc": 170,
+          "pas": null,
+          "prefix": "ZL",
+          "boundary": null
+        },
+        {
+          "dxcc": 34,
+          "pas": null,
+          "prefix": "ZL7",
+          "boundary": null
+        },
+        {
+          "dxcc": 133,
+          "pas": null,
+          "prefix": "ZL8",
+          "boundary": null
+        },
+        {
+          "dxcc": 16,
+          "pas": null,
+          "prefix": "ZL9",
+          "boundary": null
+        },
+        {
+          "dxcc": 176,
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null
+        },
+        {
+          "dxcc": 460,
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null
+        },
+        {
+          "dxcc": 489,
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null
+        },
+        {
+          "dxcc": 190,
+          "pas": null,
+          "prefix": "5W",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 32; Notes",
+      "transcription_note": "Multi-entity labels split one cover per ADIF entity: E5 (North Cook 191, South Cook 234); FO (French Polynesia 175, Austral I. 508; the 'but NOT Marquesas and Clipperton' wording is kept on the French Polynesia cover); VP6 (Pitcairn 172, Ducie 513); 3D2 (Fiji 176, Rotuma 460, Conway Reef 489). As published: 'FK New Caledonia but NOT Chesterfield Is.)' lacks its opening parenthesis. Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "33",
+      "name": "Northwestern Zone of Africa",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 446,
+          "pas": null,
+          "prefix": "CN",
+          "boundary": null
+        },
+        {
+          "dxcc": 256,
+          "pas": null,
+          "prefix": "CT3",
+          "boundary": null
+        },
+        {
+          "dxcc": 29,
+          "pas": null,
+          "prefix": "EA8",
+          "boundary": null
+        },
+        {
+          "dxcc": 32,
+          "pas": null,
+          "prefix": "EA9",
+          "boundary": null
+        },
+        {
+          "dxcc": 248,
+          "pas": null,
+          "prefix": "IG9",
+          "boundary": "Pelagic Is."
+        },
+        {
+          "dxcc": 248,
+          "pas": null,
+          "prefix": "IH9 IG9",
+          "boundary": "Pantelleria Is. or Pelagic Islands"
+        },
+        {
+          "dxcc": 302,
+          "pas": null,
+          "prefix": "S0",
+          "boundary": null
+        },
+        {
+          "dxcc": 474,
+          "pas": null,
+          "prefix": "3V",
+          "boundary": null
+        },
+        {
+          "dxcc": 400,
+          "pas": null,
+          "prefix": "7X",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 33",
+      "transcription_note": "Pelagic Is. and Pantelleria Is. are not DXCC entities; they are parts of Italy (ADIF 248), so they are recorded as Italy with CQ's area wording as the boundary. IG9 is published twice ('IG9 (Pelagic Is.)' and 'IH9 IG9 (Pantelleria Is. or Pelagic Islands)'); both kept."
+    },
+    {
+      "code": "34",
+      "name": "Northeastern Zone of Africa",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 466,
+          "pas": null,
+          "prefix": "ST",
+          "boundary": null
+        },
+        {
+          "dxcc": 478,
+          "pas": null,
+          "prefix": "SU",
+          "boundary": null
+        },
+        {
+          "dxcc": 521,
+          "pas": null,
+          "prefix": "Z8",
+          "boundary": null
+        },
+        {
+          "dxcc": 436,
+          "pas": null,
+          "prefix": "5A",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 34"
+    },
+    {
+      "code": "35",
+      "name": "Central Zone of Africa",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 422,
+          "pas": null,
+          "prefix": "C5",
+          "boundary": null
+        },
+        {
+          "dxcc": 409,
+          "pas": null,
+          "prefix": "D4",
+          "boundary": null
+        },
+        {
+          "dxcc": 434,
+          "pas": null,
+          "prefix": "EL",
+          "boundary": null
+        },
+        {
+          "dxcc": 109,
+          "pas": null,
+          "prefix": "J5",
+          "boundary": null
+        },
+        {
+          "dxcc": 428,
+          "pas": null,
+          "prefix": "TU",
+          "boundary": null
+        },
+        {
+          "dxcc": 416,
+          "pas": null,
+          "prefix": "TY",
+          "boundary": null
+        },
+        {
+          "dxcc": 442,
+          "pas": null,
+          "prefix": "TZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 480,
+          "pas": null,
+          "prefix": "XT",
+          "boundary": null
+        },
+        {
+          "dxcc": 107,
+          "pas": null,
+          "prefix": "3X",
+          "boundary": null
+        },
+        {
+          "dxcc": 450,
+          "pas": null,
+          "prefix": "5N",
+          "boundary": null
+        },
+        {
+          "dxcc": 444,
+          "pas": null,
+          "prefix": "5T",
+          "boundary": null
+        },
+        {
+          "dxcc": 187,
+          "pas": null,
+          "prefix": "5U",
+          "boundary": null
+        },
+        {
+          "dxcc": 483,
+          "pas": null,
+          "prefix": "5V",
+          "boundary": null
+        },
+        {
+          "dxcc": 456,
+          "pas": null,
+          "prefix": "6W",
+          "boundary": null
+        },
+        {
+          "dxcc": 424,
+          "pas": null,
+          "prefix": "9G",
+          "boundary": null
+        },
+        {
+          "dxcc": 458,
+          "pas": null,
+          "prefix": "9L",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 35"
+    },
+    {
+      "code": "36",
+      "name": "Equatorial Zone of Africa",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 401,
+          "pas": null,
+          "prefix": "D2",
+          "boundary": null
+        },
+        {
+          "dxcc": 219,
+          "pas": null,
+          "prefix": "S9",
+          "boundary": null
+        },
+        {
+          "dxcc": 406,
+          "pas": null,
+          "prefix": "TJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 408,
+          "pas": null,
+          "prefix": "TL",
+          "boundary": null
+        },
+        {
+          "dxcc": 412,
+          "pas": null,
+          "prefix": "TN",
+          "boundary": null
+        },
+        {
+          "dxcc": 420,
+          "pas": null,
+          "prefix": "TR",
+          "boundary": null
+        },
+        {
+          "dxcc": 410,
+          "pas": null,
+          "prefix": "TT",
+          "boundary": null
+        },
+        {
+          "dxcc": 250,
+          "pas": null,
+          "prefix": "ZD7",
+          "boundary": null
+        },
+        {
+          "dxcc": 205,
+          "pas": null,
+          "prefix": "ZD8",
+          "boundary": null
+        },
+        {
+          "dxcc": 49,
+          "pas": null,
+          "prefix": "3C",
+          "boundary": null
+        },
+        {
+          "dxcc": 195,
+          "pas": null,
+          "prefix": "3C0",
+          "boundary": null
+        },
+        {
+          "dxcc": 482,
+          "pas": null,
+          "prefix": "9J",
+          "boundary": null
+        },
+        {
+          "dxcc": 414,
+          "pas": null,
+          "prefix": "9Q",
+          "boundary": null
+        },
+        {
+          "dxcc": 404,
+          "pas": null,
+          "prefix": "9U",
+          "boundary": null
+        },
+        {
+          "dxcc": 454,
+          "pas": null,
+          "prefix": "9X",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 36"
+    },
+    {
+      "code": "37",
+      "name": "Eastern Zone of Africa",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 181,
+          "pas": null,
+          "prefix": "C9",
+          "boundary": null
+        },
+        {
+          "dxcc": 53,
+          "pas": null,
+          "prefix": "ET",
+          "boundary": null
+        },
+        {
+          "dxcc": 51,
+          "pas": null,
+          "prefix": "E3",
+          "boundary": null
+        },
+        {
+          "dxcc": 382,
+          "pas": null,
+          "prefix": "J2",
+          "boundary": null
+        },
+        {
+          "dxcc": 232,
+          "pas": null,
+          "prefix": "T5",
+          "boundary": null
+        },
+        {
+          "dxcc": 470,
+          "pas": null,
+          "prefix": "5H",
+          "boundary": null
+        },
+        {
+          "dxcc": 286,
+          "pas": null,
+          "prefix": "5X",
+          "boundary": null
+        },
+        {
+          "dxcc": 430,
+          "pas": null,
+          "prefix": "5Z",
+          "boundary": null
+        },
+        {
+          "dxcc": 492,
+          "pas": null,
+          "prefix": "7O",
+          "boundary": "Socotra and Abd al Kuri islands ONLY"
+        },
+        {
+          "dxcc": 440,
+          "pas": null,
+          "prefix": "7Q",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 37"
+    },
+    {
+      "code": "38",
+      "name": "South African Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 402,
+          "pas": null,
+          "prefix": "A2",
+          "boundary": null
+        },
+        {
+          "dxcc": 464,
+          "pas": null,
+          "prefix": "V5",
+          "boundary": null
+        },
+        {
+          "dxcc": 274,
+          "pas": null,
+          "prefix": "ZD9",
+          "boundary": null
+        },
+        {
+          "dxcc": 452,
+          "pas": null,
+          "prefix": "Z2",
+          "boundary": null
+        },
+        {
+          "dxcc": 462,
+          "pas": null,
+          "prefix": "ZS",
+          "boundary": null
+        },
+        {
+          "dxcc": 201,
+          "pas": null,
+          "prefix": "ZS8",
+          "boundary": null
+        },
+        {
+          "dxcc": 468,
+          "pas": null,
+          "prefix": "3DA",
+          "boundary": null
+        },
+        {
+          "dxcc": 24,
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null
+        },
+        {
+          "dxcc": 432,
+          "pas": null,
+          "prefix": "7P",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 38; Notes",
+      "transcription_note": "3Y mapped by the area CQ names (Bouvet Is., ADIF 24). '3DA (Swaziland)' = ADIF 468 (Kingdom of Eswatini). Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "39",
+      "name": "Madagascar Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 411,
+          "pas": null,
+          "prefix": "D6",
+          "boundary": null
+        },
+        {
+          "dxcc": 169,
+          "pas": null,
+          "prefix": "FH",
+          "boundary": null
+        },
+        {
+          "dxcc": 453,
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null
+        },
+        {
+          "dxcc": 99,
+          "pas": null,
+          "prefix": "FT-G",
+          "boundary": null
+        },
+        {
+          "dxcc": 124,
+          "pas": null,
+          "prefix": "FT-J&E",
+          "boundary": null
+        },
+        {
+          "dxcc": 276,
+          "pas": null,
+          "prefix": "FT-T",
+          "boundary": null
+        },
+        {
+          "dxcc": 41,
+          "pas": null,
+          "prefix": "FT‑W",
+          "boundary": null
+        },
+        {
+          "dxcc": 131,
+          "pas": null,
+          "prefix": "FT-X",
+          "boundary": null
+        },
+        {
+          "dxcc": 10,
+          "pas": null,
+          "prefix": "FT‑Z",
+          "boundary": null
+        },
+        {
+          "dxcc": 379,
+          "pas": null,
+          "prefix": "S7",
+          "boundary": null
+        },
+        {
+          "dxcc": 111,
+          "pas": null,
+          "prefix": "VK0",
+          "boundary": null
+        },
+        {
+          "dxcc": 33,
+          "pas": null,
+          "prefix": "VQ9",
+          "boundary": null
+        },
+        {
+          "dxcc": 4,
+          "pas": null,
+          "prefix": "3B6/7",
+          "boundary": null
+        },
+        {
+          "dxcc": 165,
+          "pas": null,
+          "prefix": "3B8",
+          "boundary": null
+        },
+        {
+          "dxcc": 207,
+          "pas": null,
+          "prefix": "3B9",
+          "boundary": null
+        },
+        {
+          "dxcc": 438,
+          "pas": null,
+          "prefix": "5R",
+          "boundary": null
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "some Antarctic stations (See Notes Below)"
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4AAA",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        },
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": "KC4USN",
+          "boundary": "Stations KC4AAA and KC4USN are at the South Pole, and will count for any one of the listed zones."
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 39; Notes",
+      "transcription_note": "D6 mapped to ADIF 411 (Comoros, current; 39 is deleted). VK0 mapped by the area CQ names (Heard Is., ADIF 111). As published: 'Mautitius Is.' (Mauritius). FT-W and FT-Z keep the published U+2011 non-breaking hyphen; the other FT- prefixes use an ASCII hyphen. Notes: 'The boundaries of CQ zones 12, 13, 29, 30, 32, 38 and 39 converge at the South Pole.' The two South Pole stations are callsigns, not prefixes; they are recorded with the callsign in the prefix field and are attached to every zone the note lists."
+    },
+    {
+      "code": "40",
+      "name": "North Atlantic Zone",
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 259,
+          "pas": null,
+          "prefix": "JW",
+          "boundary": null
+        },
+        {
+          "dxcc": 118,
+          "pas": null,
+          "prefix": "JX",
+          "boundary": null
+        },
+        {
+          "dxcc": 237,
+          "pas": null,
+          "prefix": "OX",
+          "boundary": null
+        },
+        {
+          "dxcc": 61,
+          "pas": null,
+          "prefix": "RI1FJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 242,
+          "pas": null,
+          "prefix": "TF",
+          "boundary": null
+        }
+      ],
+      "source": "cq_waz_list.htm, Zone 40"
+    }
+  ]
+}
