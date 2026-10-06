@@ -1,0 +1,23 @@
+cq-zones-mcp
+Copyright (C) Greg Beam, KI7MT, and contributors.
+Licensed under the GNU General Public License v3.0 or later (see LICENSE).
+
+Third-party material: CQ's WAZ Zone Definitions page
+----------------------------------------------------
+
+The facts this package serves come from CQ's "WAZ Zone Definitions" page (https://cqww.com/cq_waz_list.htm, "Updated and correct as of
+April 1, 2018"), copyright CQ Communications, Inc. and the World Wide Radio Operators Foundation,
+Inc. (WWROF), all rights reserved.
+
+The owner's document is NOT included in this package or its repository. It is referenced by URL,
+and data/SOURCE.json records the date it was retrieved and its SHA-256, so anyone can fetch the
+same document and check the facts against it (scripts/fetch_published.py does that for developers).
+
+data/facts/cq_zones.json holds facts from that page (zone numbers, names, and the entities and
+areas each zone covers, with CQ's short wording for partial areas), each citing the zone it comes
+from. The definitions are the owner's; this project's GPL-3.0-or-later licence covers our own
+code and files, not the owner's material, and we claim no rights in it.
+
+Ours, labelled as ours: data/SOURCE.json, data/owner-list.schema.json, data/derived/ (built from the
+facts) and data/load.sql (generated).
+
