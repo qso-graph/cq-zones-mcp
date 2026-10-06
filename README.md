@@ -4,6 +4,8 @@
 [![PyPI](https://img.shields.io/pypi/v/cq-zones-mcp?label=PyPI&color=blue)](https://pypi.org/project/cq-zones-mcp/)
 [![MCP Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dio.github.qso-graph%2Fcq-zones-mcp%26version%3Dlatest&query=%24.servers%5B0%5D.server.version&label=MCP%20Registry&color=blue)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.qso-graph/cq-zones-mcp&version=latest)
 
+> **Source: CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm)** ("Updated and correct as of April 1, 2018"), © CQ Communications, Inc. and the World Wide Radio Operators Foundation (WWROF). The 40 CQ zones are CQ's: this package serves facts from CQ's list, each citing the zone it comes from, and links to CQ's page rather than copying it. Our GPL-3.0 licence covers our code, not CQ's data.
+
 MCP server for **CQ zones** as CQ publishes them: the 40 zones of CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm) (2018-04-01), the zones used by CQ's Worked All Zones award and the CQ World Wide DX Contest. Each zone's entities and subdivisions are given in ADIF's own DXCC and subdivision codes, with CQ's own wording where it splits an area.
 
 Part of the [qso-graph](https://qso-graph.io/) project. **No network, no authentication**: the facts from the owner's list ship with the package, and every answer names its source.
@@ -150,6 +152,4 @@ uv run pytest
 
 ## License
 
-cq-zones-mcp's own code is GPL-3.0-or-later. See [LICENSE](LICENSE) for details.
-
-**The zone definitions are CQ's, not ours.** The package answers from facts copied from CQ's **WAZ Zone Definitions** page (<https://cqww.com/cq_waz_list.htm>, "Updated and correct as of April 1, 2018"), each citing the zone it comes from. It does **not** include the page: it links to it and records the page's SHA-256, so anyone can check the facts against the original. The definitions are © CQ Communications, Inc. and the World Wide Radio Operators Foundation (WWROF); our licence doesn't cover them, and we claim no rights in them. The entity → zones file (`derived/`) is ours, built from CQ's facts. How CQ's prose was read is recorded in [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). See [NOTICE](NOTICE).
+cq-zones-mcp's own code is GPL-3.0-or-later. See [LICENSE](LICENSE). The data it serves is the owner's, credited at the top of this page: our licence doesn't cover it, and we claim no rights in it. The owner's document itself is not included; `data/SOURCE.json` records its URL and SHA-256 so anyone can check the facts against it. Files we built from the facts (`data/derived/`) are ours and labelled as ours. How the owner's text was read is recorded in [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). See [NOTICE](NOTICE).
