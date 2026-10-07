@@ -8,6 +8,7 @@
 BEGIN;
 DROP SCHEMA IF EXISTS cq_zones CASCADE;
 CREATE SCHEMA cq_zones;
+COMMENT ON SCHEMA cq_zones IS 'CQ zones as CQ Communications, Inc. / World Wide Radio Operators Foundation (WWROF) publishes them (CQ WAZ Zone Definitions, edition 2018-04-01). The owner is the authority for this list: where ADIF''s tables also carry a value for it (e.g. the CQ Zone or ITU Zone columns of adif.primary_administrative_subdivision), this schema is the answer and ADIF''s is a copy.';
 
 -- Where every fact here came from: SOURCE.json (owner, document URL, SHA-256).
 CREATE TABLE cq_zones.source (
@@ -529,6 +530,9 @@ INSERT INTO cq_zones.cover (list, seq, n, dxcc, pas, prefix, boundary) VALUES ('
 INSERT INTO cq_zones.cover (list, seq, n, dxcc, pas, prefix, boundary) VALUES ('cq_zones', 40, 3, 237, NULL, 'OX', NULL);
 INSERT INTO cq_zones.cover (list, seq, n, dxcc, pas, prefix, boundary) VALUES ('cq_zones', 40, 4, 61, NULL, 'RI1FJ', NULL);
 INSERT INTO cq_zones.cover (list, seq, n, dxcc, pas, prefix, boundary) VALUES ('cq_zones', 40, 5, 242, NULL, 'TF', NULL);
+
+COMMENT ON TABLE cq_zones.code IS 'Codes as the owner publishes them. CQ zones as CQ Communications, Inc. / World Wide Radio Operators Foundation (WWROF) publishes them (CQ WAZ Zone Definitions, edition 2018-04-01). The owner is the authority for this list: where ADIF''s tables also carry a value for it (e.g. the CQ Zone or ITU Zone columns of adif.primary_administrative_subdivision), this schema is the answer and ADIF''s is a copy.';
+COMMENT ON TABLE cq_zones.cover IS 'What each code covers, in ADIF codes; boundary is the owner wording. CQ zones as CQ Communications, Inc. / World Wide Radio Operators Foundation (WWROF) publishes them (CQ WAZ Zone Definitions, edition 2018-04-01). The owner is the authority for this list: where ADIF''s tables also carry a value for it (e.g. the CQ Zone or ITU Zone columns of adif.primary_administrative_subdivision), this schema is the answer and ADIF''s is a copy.';
 
 DO $$ BEGIN IF EXISTS (SELECT 1 FROM pg_roles WHERE rolname = 'ionis_ro') THEN
   GRANT USAGE ON SCHEMA cq_zones TO ionis_ro;
