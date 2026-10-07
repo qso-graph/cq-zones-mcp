@@ -7,9 +7,9 @@ section of the page. Whitespace and markup are ignored; the words must match.
 
 from __future__ import annotations
 
-import html
 import re
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
 
 import pytest
@@ -27,11 +27,34 @@ def squash(text: str) -> str:
     return re.sub(r"\s+", "", text)
 
 
+class _Text(HTMLParser):
+    """The page's visible text: the stdlib parser, not a regex (handles any tag case and
+    malformed markup); script and style contents are skipped."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+        self._skip = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self._skip += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self._skip:
+            self._skip -= 1
+
+    def handle_data(self, data):
+        if not self._skip:
+            self.parts.append(data)
+
+
 def page_text() -> str:
     raw = fetch_published.fetch(DOC, reference.source()["published"][DOC]).read_text(
         encoding="utf-8", errors="replace")
-    raw = re.sub(r"<script.*?</script>|<style.*?</style>", " ", raw, flags=re.S)
-    text = squash(html.unescape(re.sub(r"<[^>]+>", " ", raw)))
+    parser = _Text()
+    parser.feed(raw)
+    text = squash(" ".join(parser.parts))
     return text[text.rfind("CQWAZZoneDefinitions"):]
 
 
