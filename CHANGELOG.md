@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- CQ's page re-fetched 2026-10-07: cqww.com changed its navigation menu, so the page's SHA-256 changed. The zone definitions are identical (compared text), so the facts are unchanged.
 - `load.sql` says in the database that the owner is the authority for this list: where ADIF's tables also carry a value for it, this schema is the answer (qso-graph-devel#56).
 
 ## [0.1.0] — 2026-10-06
