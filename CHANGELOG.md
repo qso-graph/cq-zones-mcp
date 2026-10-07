@@ -5,7 +5,7 @@ All notable changes to `cq-zones-mcp` are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.1] — 2026-10-07
 
 - CI: the owner's document is fetched and checked only on the release PR (develop → main), and the check is that our facts are still in it (each zone's name, prefixes and boundary wording). A changed SHA-256 is now a warning, not a failure: websites change menus and markup without changing the list.
 - CQ's page re-fetched 2026-10-07: cqww.com changed its navigation menu, so the page's SHA-256 changed. The zone definitions are identical (compared text), so the facts are unchanged.
