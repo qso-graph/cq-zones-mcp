@@ -1,7 +1,8 @@
 """cq-zones-mcp: CQ zones, as CQ publishes them (QG Reference).
 
 Read-only. The facts the tools answer from are in data/facts/, each citing where it appears
-in the owner's document, which is referenced by URL and SHA-256 (data/SOURCE.json), not shipped.
+in the owner's document, which is referenced by URL and SHA-256
+(data/SOURCE.json), not shipped.
 """
 
 from __future__ import annotations
@@ -22,9 +23,13 @@ mcp = FastMCP(
     "cq-zones-mcp",
     version=__version__,
     instructions=(
-        "CQ zones (1-40) as CQ publishes them in its WAZ Zone Definitions (2018-04-01): which zone covers which entity or state, in ADIF's own DXCC and subdivision codes. "
-        "Every answer names its source. Facts are the owner's; anything marked derived is ours. "
-        "Start with cq_zones_codes_for (an ADIF DXCC code, plus a subdivision such as QC) or cq_zones_lookup (a zone number)."
+        "CQ zones (1-40) as CQ publishes them in its WAZ Zone Definitions "
+        "(2018-04-01): which zone covers which entity or state, in ADIF's own "
+        "DXCC and subdivision codes. "
+        "Every answer names its source. Facts are the owner's; anything marked "
+        "derived is ours. "
+        "Start with cq_zones_codes_for (an ADIF DXCC code, plus a subdivision "
+        "such as QC) or cq_zones_lookup (a zone number)."
     ),
 )
 
@@ -94,7 +99,8 @@ def get_version_info() -> dict[str, Any]:
 
 @mcp.tool(name=f"{P}_source_info", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def source_info() -> dict[str, Any]:
-    """Who owns this list, which edition is served, its terms, and the owner's files' URLs and SHA-256s."""
+    """Who owns this list, which edition is served, its terms, and the owner's
+    files' URLs and SHA-256s."""
     s = reference.source()
     return {
         "owner": s["owner"],
@@ -104,7 +110,8 @@ def source_info() -> dict[str, Any]:
         "authority": s.get("authority"),
         "terms": s["terms"],
         "retrieved": {n: m["retrieved"] for n, m in s["published"].items()},
-        "published_files": {n: {"url": m["url"], "sha256": m["sha256"]} for n, m in s["published"].items()},
+        "published_files": {n: {"url": m["url"], "sha256": m["sha256"]}
+                            for n, m in s["published"].items()},
         "lists": {n: len(ol.records) for n, ol in reference.lists().items()},
         "derived_note": s["derived_note"],
     }
@@ -112,7 +119,8 @@ def source_info() -> dict[str, Any]:
 
 @mcp.tool(name=f"{P}_lookup", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def lookup(code: str) -> dict[str, Any]:
-    """One CQ zone: its name and every entity, subdivision and boundary CQ lists for it, with ADIF codes and the citation.
+    """One CQ zone: its name and every entity, subdivision and boundary CQ lists
+    for it, with ADIF codes and the citation.
 
     Args:
         code: A CQ zone number, 1 to 40.
@@ -140,12 +148,16 @@ def search(text: str, limit: int = 50) -> dict[str, Any]:
         _err("text must be 1 to 100 characters")
     limit = max(1, min(int(limit), 200))
     hits, total = reference.search(text, limit=limit)
-    return {"text": text, "total": total, "returned": len(hits), "records": hits, "source": _credit()}
+    return {"text": text, "total": total, "returned": len(hits), "records": hits,
+            "source": _credit()}
 
 
 @mcp.tool(name=f"{P}_codes_for", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def codes_for(dxcc: int, subdivision: str | None = None) -> dict[str, Any]:
-    """Which CQ zones cover an ADIF DXCC entity, or one of its subdivisions. Where CQ splits an entity (VE2 Quebec at the 50th parallel), each zone is returned with CQ's boundary wording.
+    """Which CQ zones cover an ADIF DXCC entity, or one of its subdivisions.
+
+    Where CQ splits an entity (VE2 Quebec at the 50th parallel), each zone is
+    returned with CQ's boundary wording.
 
     Args:
         dxcc: ADIF DXCC entity code (e.g. 291 for the United States, 1 for Canada).
@@ -161,7 +173,10 @@ def codes_for(dxcc: int, subdivision: str | None = None) -> dict[str, Any]:
 
 @mcp.tool(name=f"{P}_valid_on", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def valid_on(code: str, on_date: str) -> dict[str, Any]:
-    """Whether a CQ zone was valid on a date. CQ's list gives no validity window, so every zone it lists is valid; the tool exists so every owner-list server answers the same questions.
+    """Whether a CQ zone was valid on a date.
+
+    CQ's list gives no validity window, so every zone it lists is valid; the tool
+    exists so every owner-list server answers the same questions.
 
     Args:
         code: A CQ zone number, 1 to 40.
@@ -178,7 +193,8 @@ def valid_on(code: str, on_date: str) -> dict[str, Any]:
     recs = reference.valid_on(code, d)
     if not recs:
         return {"code": code, "found": False, "source": _credit()}
-    return {"code": code, "on_date": d.isoformat(), "found": True, "records": recs, "source": _credit()}
+    return {"code": code, "on_date": d.isoformat(), "found": True,
+            "records": recs, "source": _credit()}
 
 
 def main() -> None:
