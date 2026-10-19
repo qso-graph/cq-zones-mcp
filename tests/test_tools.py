@@ -9,7 +9,8 @@ from fastmcp.exceptions import ToolError
 
 from cq_zones_mcp import server
 
-TOOLS = {"get_version_info", "cq_zones_source_info", "cq_zones_lookup", "cq_zones_search", "cq_zones_codes_for", "cq_zones_valid_on"}
+TOOLS = {"get_version_info", "cq_zones_source_info", "cq_zones_lookup",
+         "cq_zones_search", "cq_zones_codes_for", "cq_zones_valid_on"}
 
 
 def call(name: str, args: dict | None = None) -> dict:
@@ -38,8 +39,11 @@ def test_source_info_credits_the_owner():
 
 
 def test_every_answer_names_its_source():
-    for name, args in (("cq_zones_lookup", {"code": "5"}), ("cq_zones_search", {"text": "Quebec"}),
-                       ("cq_zones_codes_for", {"dxcc": 1}), ("cq_zones_valid_on", {"code": "5", "on_date": "2026-10-06"})):
+    for name, args in (("cq_zones_lookup", {"code": "5"}),
+                       ("cq_zones_search", {"text": "Quebec"}),
+                       ("cq_zones_codes_for", {"dxcc": 1}),
+                       ("cq_zones_valid_on",
+                        {"code": "5", "on_date": "2026-10-06"})):
         r = call(name, args)
         assert "error" not in r, (name, r)
         assert r["source"]["owner"] and r["source"]["url"], name

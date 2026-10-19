@@ -12,6 +12,27 @@ result whose payload carried an `error` key. Anything reading `result["error"]` 
 error flag. The publisher credit is no longer attached to a rejection — it is still on every
 answer that carries data, which is where attribution belongs.
 
+### Lint (#16, qso-graph-devel#70)
+
+- **`E501` is adopted.** It reported **39 lines** — exactly the number the deferral note in this
+  repo's own config predicted, which is a fair check on that original measurement — and not one
+  of them was a defect.
+- **The note's other prediction did not hold, and this is the repo it was made about.** It said
+  "six of those 39 will not be reflowed at all", because they name ADIF's own field
+  `Primary_Administrative_Subdivision`. Measured: **three** lines name it, not six, and all three
+  reflow with the field name whole, by binding the subscript chain to a name first —
+  `subdivisions = pas["Adif"]["Enumerations"]["Primary_Administrative_Subdivision"]` is 83
+  characters. **Zero exemptions were needed**, and there is no `# noqa: E501` in the repo.
+  That prediction is the stated basis for the exemption clause across the whole fleet, and it has
+  now been tested where it came from.
+- **Four tool descriptions change on the wire, in whitespace only.** These tools have no `Args:`
+  section, so FastMCP publishes the whole docstring as the description — and reflowing a docstring
+  therefore reaches a client. Checked rather than assumed: with whitespace normalised the text is
+  identical for all four, **no words changed**, and every `inputSchema` is byte-identical. Said
+  here because the rest of this is formatting and a reader is entitled to assume formatting
+  changes nothing.
+- Falsified: a long line planted in `src/` and another in `tests/`, both caught.
+
 ### MCP specification 2026-07-28 (#17)
 
 - **Tool errors are flagged `isError`.** `_err()` returned `{"error": msg, "source": _credit()}`
