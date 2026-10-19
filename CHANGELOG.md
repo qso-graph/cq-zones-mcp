@@ -5,6 +5,46 @@ All notable changes to `cq-zones-mcp` are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+**Upgrading:** a tool that rejects your input now returns `isError: true` instead of a successful
+result whose payload carried an `error` key. Anything reading `result["error"]` should read the
+error flag. The publisher credit is no longer attached to a rejection — it is still on every
+answer that carries data, which is where attribution belongs.
+
+### MCP specification 2026-07-28 (#17)
+
+- **Tool errors are flagged `isError`.** `_err()` returned `{"error": msg, "source": _credit()}`
+  from **six** validation sites across four tools, and on the wire that arrived as a *successful*
+  result. The specification says of `CallToolResult.isError` that otherwise "the LLM would not be
+  able to see that an error occurred and self-correct". It raises `ToolError` now, typed
+  `NoReturn` so the type checker knows the call sites end there.
+- **The publisher credit was in the error payload, and dropping it costs nothing — checked before
+  the change, not after.** Every successful answer builds its own `source` from `_credit()`,
+  including a "not found" answer. Attribution belongs on the data, and a rejected input returns
+  no data. Two tests hold that per tool rather than assuming it from one.
+- **All six tools declare the four annotation hints**, and they share one block — unusual in this
+  fleet and honest here: every tool answers from the CQ-zone reference data bundled in the wheel,
+  nothing opens a socket, and nothing writes.
+- **Because "one block" is also what a careless copy produces, the premise is asserted rather
+  than the convenience.** Two tests read the whole package: no module reaches the network, and
+  nothing writes. Verified three ways — an unused `import urllib.request` correctly does *not*
+  fail them, while an actual `urlopen` call and a raw `socket.create_connection` both do.
+- `openWorldHint: false` on all six. `idempotentHint: true` in a stronger sense than elsewhere in
+  the fleet: other servers are idempotent because the tool changes nothing while their answers
+  still move, being drawn from a live service. Here the data ships in the wheel, so the same call
+  returns the same answer until the package is upgraded. A test asserts the data really is
+  carried, since that is what the stronger claim rests on.
+- **The issue lists the wrong tool names.** #17 says `codes_for`, `lookup`, `search`,
+  `source_info`, `valid_on` — the *function* names. The decorators pass `name=f"{P}_..."`, so a
+  client sees `cq_zones_codes_for` and so on. `TestRegistration` pins the registered set, which
+  is the only one a caller can use.
+- The issue's count of error returns is 2. Measured: one `"error"` literal, reached from six
+  `return _err(...)` sites.
+- Eight falsifications, every one caught, plus the premise check verified in three directions.
+  One of my falsifications was itself wrong — an unused import does not reach the network — and
+  replacing it is what produced the three-way check.
+
 ## [0.1.2] — 2026-10-11
 
 - **ruff and mypy run in CI** (qso-graph-devel#66), as a job the `ci-all-green` gate requires.
