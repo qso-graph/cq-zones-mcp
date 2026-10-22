@@ -12,6 +12,27 @@ result whose payload carried an `error` key. Anything reading `result["error"]` 
 error flag. The publisher credit is no longer attached to a rejection — it is still on every
 answer that carries data, which is where attribution belongs.
 
+### Provenance
+
+- **CQ's published page changed, and the recorded SHA-256 is updated to match.** The release gate
+  caught it: `published/cq_waz_list.htm` now hashes `6362f71a…` where `SOURCE.json` recorded
+  `44f4ef3d…` from 2026-10-07. The gate is `scripts/build.py`, which refuses to rebuild the facts
+  from a document it has not verified, and it was right to stop the release.
+- **The facts did not change.** Established three ways rather than assumed:
+  1. The live pre-release check — every fact still appears in CQ's current page — passes, and it
+     was falsified first: planting a zone name CQ does not publish makes it fail.
+  2. Rebuilding from the changed page produces a **byte-identical** `facts/cq_zones.json`.
+  3. The document edition is unchanged — still `2018-04-01`. The page moved, the document did not.
+- So this is the case `scripts/fetch_published.py` already describes in a comment: *"websites
+  change menus and markup without changing the list. The pre-release check that matters is that
+  our facts are still in the document."* Its warning prescribes the action taken here — check the
+  facts, then record the new SHA-256.
+- `retrieved` moves 2026-10-07 → 2026-10-21, and `data/load.sql` carries the same two values
+  because the provenance record is embedded in the SQL seed. Those are the only changes; no zone,
+  entity, subdivision or boundary is touched.
+- The owner's file is still not shipped — `published/` is gitignored, and this package links to
+  the page and records its hash rather than redistributing it.
+
 ### MCP specification 2026-07-28 (#17)
 
 - **Tool errors are flagged `isError`.** `_err()` returned `{"error": msg, "source": _credit()}`
