@@ -5,6 +5,22 @@ All notable changes to `cq-zones-mcp` are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Tests
+
+- **CQ-C22 could not fail, and now can.** The check that says no `{"error": ...}` payload remains
+  anywhere in `src/` read the source with comments *and string literals* stripped by `tokenize`.
+  That was done to stop it matching `_err`'s own docstring, which quotes the old shape to explain
+  why it is gone — but a dict key is itself a string literal, so stripping them deleted the very
+  thing the check looks for. It passed a planted `return {"error": "left behind"}`. It now reads
+  the parse tree and looks for a dict literal with a constant `"error"` key, which cannot be fooled
+  by prose and cannot be blinded by the fix for it. Falsified both ways: the docstring alone passes,
+  a planted payload fails.
+  Found 2026-10-21 while writing the same file for itu-zones-mcp — the only other repo in the fleet
+  that used the `tokenize` form. Tests are not in the wheel, so nothing a user installed is
+  affected; what was affected is the confidence this repo's suite was entitled to.
+
 ## [0.2.0] — 2026-10-21
 
 **Upgrading:** a tool that rejects your input now returns `isError: true` instead of a successful
