@@ -1,4 +1,5 @@
-"""Pre-release: our facts are still in CQ's page (run with --live; CI runs it on the release PR).
+"""Pre-release: our facts are still in CQ's page (run with --live; CI runs it on
+the release PR).
 
 Not a byte comparison: cqww.com changes its menus and markup without changing the zones. Each
 zone's name, and every prefix and boundary wording in our facts, must still be in that zone's
@@ -66,7 +67,8 @@ def sections(text: str) -> dict[str, str]:
         assert m, f"Zone {n} heading not found"
         starts.append(m.start())
         at = m.end()
-    return {str(n): text[s:e] for n, (s, e) in enumerate(zip(starts, starts[1:] + [len(text)]), 1)}
+    spans = zip(starts, starts[1:] + [len(text)])
+    return {str(n): text[s:e] for n, (s, e) in enumerate(spans, 1)}
 
 
 @pytest.mark.live
@@ -76,7 +78,9 @@ def test_every_fact_is_still_in_cqs_page():
     missing = []
     for r in reference.lists()["cq_zones"].records:
         where = text if "Notes" in r["source"] else by_zone[r["code"]]
-        for value in [r["name"]] + [v for c in r["covers"] for v in (c["prefix"], c["boundary"])]:
+        values = [r["name"]] + [v for c in r["covers"]
+                                for v in (c["prefix"], c["boundary"])]
+        for value in values:
             if value and squash(value) not in where:
                 missing.append((r["code"], value))
     assert not missing, missing[:20]

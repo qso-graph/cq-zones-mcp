@@ -1,4 +1,5 @@
-"""CQ zones as CQ publishes them (WAZ Zone Definitions), in ADIF's DXCC and subdivision codes."""
+"""CQ zones as CQ publishes them (WAZ Zone Definitions), in ADIF's DXCC and
+subdivision codes."""
 
 from __future__ import annotations
 
