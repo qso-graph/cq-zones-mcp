@@ -163,26 +163,35 @@ class TestBadInputIsFlagged:
     def test_no_error_payload_remains_in_the_source(self) -> None:
         """CQ-C22: the conversion is complete, not partial.
 
-        Reads code with comments and string literals stripped by `tokenize`. The first
-        version searched raw lines and matched `_err`'s own docstring, which *quotes*
-        the old `{"error": msg, ...}` shape to explain why it is gone — a plain text
-        search cannot tell a sentence about a thing from the thing.
-        """
-        import pathlib
-        import tokenize
+        Reads the *parse tree* and looks for a dict literal with an ``"error"`` key.
+        Both text-based forms of this check fail in their own way, and both were shipped
+        here before this one:
 
-        def code_only(path: pathlib.Path) -> str:
-            kept = []
-            with path.open("rb") as handle:
-                for token in tokenize.tokenize(handle.readline):
-                    if token.type in (tokenize.COMMENT, tokenize.STRING):
-                        continue
-                    kept.append(token.string)
-            return " ".join(kept)
+        * a raw-line search matches ``_err``'s own docstring, which *quotes* the old
+          ``{"error": msg, ...}`` shape to explain why it is gone — a text search cannot
+          tell a sentence about a thing from the thing. That was caught in review and
+          replaced with the second form;
+        * stripping comments **and string literals** with ``tokenize`` does fix the
+          docstring problem, by deleting the payload key along with it — the key *is* a
+          string literal. The check then cannot fail at all, and shipped in 0.2.0 that
+          way. Found on 2026-10-21 while writing the same file for itu-zones-mcp: a
+          planted ``return {"error": "left behind"}`` kept it green.
+
+        The limit of the tree form: a key assembled at runtime (``{"erro" + "r": ...}``)
+        is not a constant and is not seen. Nobody writes that by accident.
+        """
+        import ast
+        import pathlib
 
         src = pathlib.Path(server.__file__).parent
-        offenders = [py.name for py in src.rglob("*.py") if '"error"' in code_only(py)]
-        assert not offenders, f"error payloads remain in: {offenders}"
+        offenders = [
+            f"{py.name}:{node.lineno}"
+            for py in src.rglob("*.py")
+            for node in ast.walk(ast.parse(py.read_text()))
+            if isinstance(node, ast.Dict)
+            and any(isinstance(k, ast.Constant) and k.value == "error" for k in node.keys)
+        ]
+        assert not offenders, f"error payloads remain at: {offenders}"
 
 
 class TestAttributionSurvives:
