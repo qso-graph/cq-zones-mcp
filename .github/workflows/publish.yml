@@ -1,10 +1,22 @@
 name: Publish to PyPI
 
-# The release flow (qso-graph/.github TEMPLATES.md): work lands on `develop`; a release is a
-# PR from `develop` into `main`, and merging it publishes. `main` is always the released code.
+# A release happens on purpose, not as a side effect of merging (KI7MT, 2026-10-25).
+#
+# This used to fire on a push to `main`, which made "merge the release PR" the act of
+# publishing — and that is what forced two pull requests per release: one to prepare the
+# version, and a second to merge `develop` into `main` and ship it.
+#
+# Now `main` is the one working branch. Merging into it builds and tests and publishes
+# nothing; a release is Actions -> Publish to PyPI -> Run workflow, with the version
+# typed in. Typed, because it is a decision: it must match what the tree already says,
+# and every gate below refuses anything it cannot confirm.
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "The version to publish, e.g. 0.2.1 — must match pyproject.toml"
+        required: true
+        type: string
 
 concurrency:
   group: publish
@@ -26,10 +38,16 @@ jobs:
       # pyproject's version and the Registry server.json's, so they must agree too.
       # Computed once; every later job uses this value (needs.security.outputs.version).
       # The gate fails closed: anything it cannot confirm stops the release.
-      - name: The version on main is new and consistent
+      - name: The version is the one asked for, new, and consistent
         id: version
         run: |
           VERSION="$(grep -m1 '^version' pyproject.toml | cut -d'"' -f2)"
+          # Typed by the person releasing, so a slip names a version that is not here
+          # rather than shipping whatever happens to be on main.
+          if [ "${{ inputs.version }}" != "$VERSION" ]; then
+            echo "FAIL: asked to publish ${{ inputs.version }}, but this tree is ${VERSION}"
+            exit 1
+          fi
           PACKAGE="$(jq -r '.packages[0].identifier' server.json)"
           echo "pyproject=${VERSION} server.json=$(jq -r '.version' server.json)/$(jq -r '.packages[0].version' server.json)"
           if [ "$(jq -r '.version' server.json)" != "$VERSION" ] || [ "$(jq -r '.packages[0].version' server.json)" != "$VERSION" ]; then
@@ -99,9 +117,36 @@ jobs:
             exit 1
           fi
 
+  # The owner's document, checked immediately before anything is published rather than
+  # on every pull request. This lived in ci.yml, conditioned on a pull request into
+  # `main`, which under the old flow meant "a release PR". Now every pull request
+  # targets `main`, so leaving it there would fetch the owner's page on every lockfile
+  # bump — wasteful, and against this project's own rule about respecting the endpoints
+  # it calls. Here it runs exactly when it used to, and it is the gate that correctly
+  # stopped cq-zones-mcp 0.2.0 when CQ's page had changed.
+  sources:
+    name: sources (pre-release, our facts against the owner's document)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install (locked)
+        run: uv sync --group dev --frozen
+
+      - name: Download the sources (owner's documents, checked against their SHA-256)
+        run: uv run python scripts/fetch_published.py
+
+      - name: Tests against the sources (AD1C and ARRL fetched by the tests)
+        run: uv run pytest tests --live --ignore=tests/test_security.py -v
+
   publish:
     name: Build and publish to PyPI
-    needs: security
+    needs: [security, sources]
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
