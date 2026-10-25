@@ -140,10 +140,17 @@ jobs:
 
       - name: Grep check — no plaintext http://
         run: |
-          # Tests the output, not the exit status: the exit status of a "grep -v"
-          # pipeline is not portable, so this reported FAIL on a clean tree when
-          # run locally. CI was unaffected (ubuntu/GNU grep), which is why it went
-          # unnoticed across the fleet.
+          # Tests the output rather than the pipeline's exit status, because the
+          # output is what this gate is actually asking about: are there any
+          # plaintext URLs. An exit status answers a different question and
+          # answers it through whichever grep is on PATH.
+          #
+          # The earlier comment here blamed macOS /usr/bin/grep for exiting 0 on
+          # empty input. Measured 2026-10-25, that is false: /usr/bin/grep exits
+          # 1 when no line is selected, as POSIX requires and as GNU grep does.
+          # The FAIL-on-a-clean-tree that prompted this form came from a
+          # non-conforming grep shim in an agent's shell. The form is kept
+          # because it is right for its own reason, not for that one.
           hits="$(grep -rn 'http://' src/ | grep -v 'localhost\|127\.0\.0\.1\|::1' || true)"
           if [ -n "$hits" ]; then
             echo "$hits"
