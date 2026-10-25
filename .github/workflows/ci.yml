@@ -1,8 +1,13 @@
 name: CI
 
+# A pull request is tested whatever it targets, and deliberately has no branch
+# filter. `main` is the one long-lived branch now, so `push` names it; but a filter
+# here would mean a pull request into any other branch ran no ruff, no mypy and no
+# pytest while still reporting green. That is not hypothetical: narrowing this to
+# [main] is what let the pull request making this very change merge with CodeQL as
+# its only check.
 on:
   pull_request:
-    branches: [main]
   push:
     branches: [main]
 
