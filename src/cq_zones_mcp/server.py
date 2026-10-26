@@ -205,7 +205,9 @@ def main() -> None:
         return
     if "--help" in args or "-h" in args:
         print("cq-zones-mcp: CQ zones as CQ publishes them, over MCP (stdio).\n"
-              "Options: --transport streamable-http --port N, --version")
+              "Options: --transport streamable-http --port N, --version\n"
+              "streamable-http binds 127.0.0.1 only: "
+              "not another machine, not a container.")
         return
     transport, port = "stdio", 8016
     for i, arg in enumerate(args):
@@ -216,6 +218,13 @@ def main() -> None:
     # Written out rather than passed through: fastmcp takes a literal, and a
     # str that happens to hold the right word is not the same thing.
     if transport == "streamable-http":
+        # Where it bound, said out loud. FastMCP binds 127.0.0.1 and takes
+        # no host option, so this is never reachable from another machine
+        # or from outside a container. Silent before this line.
+        print(
+            f"cq-zones-mcp on http://127.0.0.1:{port}/mcp - loopback only",
+            file=sys.stderr,
+        )
         mcp.run(transport="streamable-http", port=port)
     else:
         mcp.run(transport="stdio")
