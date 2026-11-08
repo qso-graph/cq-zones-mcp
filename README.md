@@ -31,11 +31,11 @@ uvx cq-zones-mcp            # run it; nothing to install
 
 ## Quick Start
 
-No credentials needed — just install and configure your MCP client.
+No credentials needed—just install and configure your MCP client.
 
 ### Configure your MCP client
 
-cq-zones-mcp works with any MCP-compatible client. Add the server config and restart — tools appear automatically.
+cq-zones-mcp works with any MCP-compatible client. Add the server config and restart—tools appear automatically.
 
 #### Claude Desktop
 
@@ -150,7 +150,7 @@ uv sync --group dev
 uv run pytest
 ```
 
-`scripts/fetch_published.py` fetches the owner's document(s) into `published/` (not committed) and checks their SHA-256s; `uv run pytest --live` runs the tests that need them. `scripts/build.py` regenerates `derived/` and `load.sql`, a PostgreSQL load for QSO Graph's reference data (load QG ADIF's `adif` schema first).
+`scripts/fetch_published.py` fetches the owner's documents into `published/` (not committed) and checks their SHA-256 hashes; `uv run pytest --live` runs the tests that need them. `scripts/build.py` regenerates `derived/` and `load.sql`, a PostgreSQL load for QSO Graph's reference data (load QG ADIF's `adif` schema first).
 
 ## License
 
