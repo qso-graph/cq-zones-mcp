@@ -4,7 +4,7 @@
 [![PyPI](https://img.shields.io/pypi/v/cq-zones-mcp?label=PyPI&color=blue)](https://pypi.org/project/cq-zones-mcp/)
 [![MCP Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dio.github.qso-graph%2Fcq-zones-mcp%26version%3Dlatest&query=%24.servers%5B0%5D.server.version&label=MCP%20Registry&color=blue)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.qso-graph/cq-zones-mcp&version=latest)
 
-> **Source: CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm)** ("Updated and correct as of April 1, 2018"), © CQ Communications, Inc. and the World Wide Radio Operators Foundation (WWROF). The 40 CQ zones are CQ's: this package serves facts from CQ's list, each citing the zone it comes from, and links to CQ's page rather than copying it. Our GPL-3.0 licence covers our code, not CQ's data.
+> **Source: CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm)** ("Updated and correct as of April 1, 2018"), © CQ Communications, Inc. and the World Wide Radio Operators Foundation (WWROF). The 40 CQ zones are CQ's: this package serves facts from CQ's list, each citing the zone it comes from, and links to CQ's page rather than copying it. Our GPL-3.0 license covers our code, not CQ's data.
 >
 > **Checked against:** [AD1C's country files](https://www.country-files.com/) (Jim Reisert, AD1C), ADIF 3.1.7's subdivision zones, and [ARRL's DXCC list](https://www.arrl.org/country-lists-prefixes). The tests fetch AD1C's and ARRL's files from their sites to validate the facts; neither is included here. where they differ, the owner's list wins (see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md)).
 
@@ -154,4 +154,4 @@ uv run pytest
 
 ## License
 
-cq-zones-mcp's own code is GPL-3.0-or-later. See [LICENSE](LICENSE). The data it serves is the owner's, credited at the top of this page: our licence doesn't cover it, and we claim no rights in it. The owner's document itself is not included; `data/SOURCE.json` records its URL and SHA-256 so anyone can check the facts against it. Files we built from the facts (`data/derived/`) are ours and labelled as ours. How the owner's text was read is recorded in [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). See [NOTICE](NOTICE).
+cq-zones-mcp's own code is GPL-3.0-or-later. See [LICENSE](LICENSE). The data it serves is the owner's, credited at the top of this page: our license doesn't cover it, and we claim no rights in it. The owner's document itself is not included; `data/SOURCE.json` records its URL and SHA-256 so anyone can check the facts against it. Files we built from the facts (`data/derived/`) are ours and labelled as ours. How the owner's text was read is recorded in [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md). See [NOTICE](NOTICE).
