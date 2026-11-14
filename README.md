@@ -6,7 +6,7 @@
 
 > **Source: CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm)** ("Updated and correct as of April 1, 2018"), © CQ Communications, Inc. and the World Wide Radio Operators Foundation (WWROF). The 40 CQ zones are CQ's: this package serves facts from CQ's list, each citing the zone it comes from, and links to CQ's page rather than copying it. Our GPL-3.0-or-later license covers our code, not CQ's data.
 >
-> **Checked against:** [AD1C's country files](https://www.country-files.com/) (Jim Reisert, AD1C), ADIF 3.1.7's subdivision zones, and [ARRL's DXCC list](https://www.arrl.org/country-lists-prefixes). The tests fetch AD1C's and ARRL's files from their sites to validate the facts; neither is included here. where they differ, the owner's list wins (see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md)).
+> **Checked against:** [AD1C's country files](https://www.country-files.com/) (Jim Reisert, AD1C), ADIF 3.1.8's subdivision zones, and [ARRL's DXCC list](https://www.arrl.org/country-lists-prefixes). The tests fetch AD1C's and ARRL's files from their sites to validate the facts; neither is included here. where they differ, the owner's list wins (see [docs/TRANSCRIPTION.md](docs/TRANSCRIPTION.md)).
 
 MCP server for **CQ zones** as CQ publishes them: the 40 zones of CQ's [WAZ Zone Definitions](https://cqww.com/cq_waz_list.htm) (2018-04-01), the zones used by CQ's Worked All Zones award and the CQ World Wide DX Contest. Each zone's entities and subdivisions are given in ADIF's own DXCC and subdivision codes, with CQ's own wording where it splits an area.
 
