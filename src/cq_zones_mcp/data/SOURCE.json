@@ -8,7 +8,7 @@
   "url": "https://cqww.com/cq_waz_list.htm",
   "authority": "CQ's Worked All Zones (WAZ) award and the CQ World Wide DX Contest define the 40 CQ zones.",
   "terms": "Copyright (c) World Wide Radio Operators Foundation, Inc. All rights reserved (page footer). CQ magazine's copy of this list adds: '(c) CQ Communications, Inc. ... may not be reproduced or republished ... without the express written permission of the publisher. Hyperlinks to this page are permitted.' This package does not redistribute the page: it links to it, records its SHA-256, and holds the facts from it, credited to CQ.",
-  "adif_version": "3.1.7",
+  "adif_version": "3.1.8",
   "published": {
     "cq_waz_list.htm": {
       "url": "https://cqww.com/cq_waz_list.htm",

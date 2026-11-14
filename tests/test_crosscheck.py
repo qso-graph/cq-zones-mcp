@@ -21,7 +21,7 @@ import pytest
 from cq_zones_mcp import reference
 
 CTY_URL = "https://www.country-files.com/cty/cty.dat"  # AD1C, fetched live; prefixes only
-COLUMN = "CQ Zone"   # ADIF 3.1.7 Primary_Administrative_Subdivision column
+COLUMN = "CQ Zone"   # ADIF 3.1.8 Primary_Administrative_Subdivision column
 CTY_FIELD = 1   # cty.dat entity line: name, CQ, ITU, ...
 CTY_OVERRIDE = re.compile(r"\((\d+)\)")
 
@@ -47,7 +47,7 @@ def adif_disagreements() -> dict[str, tuple[list[int], list[int]]]:
         for c in r["covers"]:
             if c["pas"]:
                 ours.setdefault((c["pas"], c["dxcc"]), set()).add(int(r["code"]))
-    spec = files("adif_mcp").joinpath("resources", "spec", "317")
+    spec = files("adif_mcp").joinpath("resources", "spec", "318")
     pas_file = spec.joinpath("enumerations_primary_administrative_subdivision.json")
     pas = json.loads(pas_file.read_text(encoding="utf-8"))
     out = {}

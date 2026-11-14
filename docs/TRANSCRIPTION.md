@@ -10,7 +10,7 @@ slip in CQ's text that was kept as published. Where a record needed a word of ex
 **40 zones, 439 covers.** Checked when transcribed:
 - every zone name, prefix and boundary appears word for word in that zone's paragraph of the page;
 - every prefix CQ sets in bold is accounted for by a cover;
-- every DXCC and subdivision code is one of ADIF 3.1.7's.
+- every DXCC and subdivision code is one of ADIF 3.1.8's (the same as 3.1.7's).
 
 ## How a zone's text becomes covers
 
@@ -75,7 +75,7 @@ Republic of Kosovo (Z6, 522), added to DXCC in 2018.
 
 These are tested in `tests/test_crosscheck.py` (AD1C and ARRL fetched live); a new disagreement fails the tests.
 
-- **ADIF 3.1.7's subdivision zones:** ADIF gives North Carolina (NC) zone 04; CQ puts it in Zone 5.
+- **ADIF 3.1.8's subdivision zones:** ADIF gives North Carolina (NC) zone 04; CQ puts it in Zone 5.
   ADIF gives Nunavut (NU) zone 02 only; CQ also places parts of Nunavut in Zones 1 and 4.
 - **ARRL's DXCC list:** Yemen (492) zone 21 only; CQ puts Socotra and Abd al Kuri in Zone 37.
 - **AD1C's cty.dat:** Yemen zone 21; KC4AAA fixed to 39; several Russian districts default to zone 17
